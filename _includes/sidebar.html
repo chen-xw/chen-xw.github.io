@@ -76,7 +76,7 @@
             {% if sub_is_relative == '/' %}
               {% assign sub_url = sub_nav[1] | prepend: site.baseurl %}
             {% endif %}
-              <a class="sidebar-nav-item-sub {% if page.url == sub_nav[1] %}active{% endif %}" href="{{ sub_url }}">
+              <a class="sidebar-nav-item sidebar-nav-item-sub {% if page.url == sub_nav[1] %}active{% endif %}" href="{{ sub_url }}">
                 {{ sub_nav[0] }}
               </a>
           {% endfor %}
