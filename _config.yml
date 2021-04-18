@@ -10,11 +10,24 @@ url: https://chen-xiuwei.github.io
 
 
 
+author:
+  name: chen-xiuwei
+  description: TYUT计科17级在读
+  gravatar:              #自己的md5码
+  contact:
+    github: https://chen-xiuwei.github.io
+    email: cxw2772809425@163.com
 
 
 
 
 
+#下面这一段为博客的相关路径设置
+nav:
+  Blog:
+    - 'blog/'
+    - {Categories: '/blog/categories/'}
+    - {Tages: '/blog/tags/'}
 
 
 
