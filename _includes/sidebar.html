@@ -5,11 +5,16 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
+    <a href="http://gravatar.com/{{ site.author.gravatar }}">
+          <img src="http://www.gravatar.com/avatar/{{ site.author.gravatar }}?s=64" title="View on Gravatar" alt="View on Gravatar" />
+    </a>
+  </div>
+  <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
+    <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">主页</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
