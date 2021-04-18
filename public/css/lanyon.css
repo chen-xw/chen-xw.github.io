@@ -123,7 +123,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-
 /*
  * Sidebar
  *
@@ -144,16 +143,27 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 0;
   bottom: 0;
-  left: -14rem;
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
-  background-color: #202020;
-  -webkit-transition: all .3s ease-in-out;
-          transition: all .3s ease-in-out;
+  @include transition(all .3s ease-in-out);
+
+  @if $reverse-layout {
+    left: auto;
+    right: -14rem;
+  } @else {
+    left: -14rem;
+    right: auto;
+  }
+
+  @if $theme-color != $default {
+    background-color: $theme-color;
+  } @else {
+    background-color: darken($theme-color-dark, 10%);
+  }
 }
 @media (min-width: 30em) {
   .sidebar {
@@ -164,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Sidebar content */
 .sidebar a {
   font-weight: normal;
-  color: #fff;
+  color: $white;
 }
 .sidebar-item {
   padding: 1rem;
@@ -181,6 +191,14 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   padding: .5rem 1rem;
   border-top: 1px solid rgba(255,255,255,.1);
+}
+.sidebar-nav-item-sub {
+  &:before {
+    content: "";
+    padding-left: 1em;
+  }
+  font-size: 85%;
+  line-height: 85%;
 }
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
@@ -204,44 +222,47 @@ a.sidebar-nav-item:focus {
 .sidebar-checkbox {
   position: absolute;
   opacity: 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  @include prefixer(user-select, none, webkit moz spec);
 }
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
   position: absolute;
   top:  .8rem;
-  left: 1rem;
-  display: flex;
-  align-items: center;
+  @if $reverse-layout {
+    left: auto;
+    right: 1rem;
+  } @else {
+    left: 1rem;
+    right: auto;
+  }
+  display: block;
   padding: .25rem .75rem;
-  color: #505050;
-  background-color: #fff;
+  color: $theme-color;
+  background-color: $white;
   border-radius: .25rem;
   cursor: pointer;
 }
 
-.sidebar-toggle::before {
+.sidebar-toggle:before {
   display: inline-block;
-  width: 32px;
-  height: 32px;
+  width: 1rem;
+  height: .75rem;
   content: "";
-  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' fill='%23555' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z' clip-rule='evenodd'/%3E%3C/svg%3E") no-repeat;
+  @include background-image(linear-gradient(to bottom, $theme-color-dark, $theme-color-dark 20%, $white 20%, $white 40%, $theme-color-dark 40%, $theme-color-dark 60%, $white 60%, $white 80%, $theme-color-dark 80%, $theme-color-dark 100%));
 }
 
 .sidebar-toggle:active,
 #sidebar-checkbox:focus ~ .sidebar-toggle,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  color: #fff;
-  background-color: #555;
+  color: $white;
+  background-color: $theme-color;
 }
 
 .sidebar-toggle:active:before,
-#sidebar-checkbox:focus ~ .sidebar-toggle::before,
-#sidebar-checkbox:checked ~ .sidebar-toggle::before {
-  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z' clip-rule='evenodd'/%3E%3C/svg%3E") no-repeat;
+#sidebar-checkbox:focus ~ .sidebar-toggle:before,
+#sidebar-checkbox:checked ~ .sidebar-toggle:before {
+  @include background-image(linear-gradient(to bottom, $white, $white 20%, $theme-color-dark 20%, $theme-color-dark 40%, $white 40%, $white 60%, $theme-color-dark 60%, $theme-color-dark 80%, $white 80%, $white 100%));
 }
 
 @media (min-width: 30.1em) {
@@ -272,28 +293,49 @@ a.sidebar-nav-item:focus {
 .wrap,
 .sidebar,
 .sidebar-toggle {
-  -webkit-backface-visibility: hidden;
-      -ms-backface-visibility: hidden;
-          backface-visibility: hidden;
+  @include prefixer(backface-visibility, hidden, webkit ms spec);
 }
 .wrap,
 .sidebar-toggle {
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-          transition: transform .3s ease-in-out;
+  @include transition(transform .3s ease-in-out);
 }
 
 #sidebar-checkbox:checked + .sidebar {
   z-index: 10;
   visibility: visible;
 }
-#sidebar-checkbox:checked ~ .sidebar,
-#sidebar-checkbox:checked ~ .wrap,
-#sidebar-checkbox:checked ~ .sidebar-toggle {
-  -webkit-transform: translateX(14rem);
-      -ms-transform: translateX(14rem);
-          transform: translateX(14rem);
+
+#sidebar-checkbox:checked ~ .wrap {
+  @include transform(translateX(if($overlay-sidebar,0,if($reverse-layout, -14rem, 14rem))));
 }
 
+#sidebar-checkbox:checked ~ .sidebar {
+  @include transform(translateX(if($reverse-layout, -14rem, 14rem)));
+  @if $overlay-sidebar {
+    box-shadow: .25rem 0 .5rem rgba(0,0,0,.1);
+    @if $reverse-layout { box-shadow: -.25rem 0 .5rem rgba(0,0,0,.2); }
+  }
+}
+
+#sidebar-checkbox:checked ~ .sidebar-toggle {
+  @include transform(translateX(if($reverse-layout, -14rem, 14rem)));
+  @if $overlay-sidebar {
+    box-shadow: 0 0 0 .25rem $white;
+  }
+}
+
+.sidebar-personal-info {
+  .sidebar-personal-info-section {
+    &:not(:first-of-type) {
+      margin-top: .75rem;
+    }
+    line-height: 1rem;
+    a, strong {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
 
 /*
  * Posts and pages
