@@ -4,7 +4,7 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
+  <div class="sidebar-personal-info-section">
     <a href="http://gravatar.com/{{ site.author.gravatar }}">
           <img src="https://secure.gravatar.com/avatar/{{ site.author.gravatar }}?s=64" title="View on Gravatar" alt="View on Gravatar" />
     </a>
@@ -12,6 +12,25 @@
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
+  {% if site.author.contact %}
+  {% assign len = site.author.contact | size %}
+  {% assign current_index = 0 %}
+  <div class="sidebar-personal-info-section">
+    <p> Follow me: 
+    {% for contact in site.author.contact %}
+    {% assign iconname = contact[0] %}
+    {% if contact[0] == 'email' %}
+    {% assign iconname = 'envelope' %}
+    {% endif %}
+    <a href="{{ contact[1] }}">
+      <i class="fa fa-{{ iconname }}" aria-hidden="true"></i>
+    </a>
+    {% assign current_index = current_index | plus: 1 %}
+    {% if current_index != len %}|{% endif %}
+    {% endfor %}
+    </p>
+  </div>
+  {% endif %}
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">主页</a>
