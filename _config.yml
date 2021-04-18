@@ -24,10 +24,13 @@ author:
 
 #下面这一段为博客的相关路径设置
 nav:
-  Blog:
+  个人介绍:
+    - '/'
+  博客:
     - 'blog/'
-    - {Categories: '/blog/categories/'}
-    - {Tages: '/blog/tags/'}
+    - {分类: '/blog/categories/'}
+    - {标签: '/blog/tags/'}
+
 
 
 
