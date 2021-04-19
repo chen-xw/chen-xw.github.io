@@ -23,7 +23,9 @@ author:
     email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
 
 
-
+sass:
+  style: compressed
+  sass_dir: _scss  
 
 
 #下面这一段为博客的相关路径设置
