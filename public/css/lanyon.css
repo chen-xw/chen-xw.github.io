@@ -318,7 +318,8 @@ a.sidebar-nav-item:focus {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    .fa-linkedin::before {
+    }
+      .fa-linkedin::before {
     content: "\f0e1";
 }
 .fa-github::before {
@@ -336,7 +337,6 @@ a.sidebar-nav-item:focus {
 .fa-envelope::before {
     content: "\f0e0";
 }
-    }
     }
   }
 }
