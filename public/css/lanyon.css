@@ -576,19 +576,13 @@ a.pagination-item:hover {
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
-@import 'config';
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+        font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
-@import 'bourbon/bourbon';
-
-@import 'base/poole';
-@import 'base/layout';
-@import 'base/global';
-@import 'base/syntax';
-
-@import 'component/sidebar';
-@import 'component/hero';
-@import 'component/post';
-@import 'component/page';
-@import 'component/tag';
-@import 'component/masthead';
-@import 'component/pagination';
