@@ -36,6 +36,10 @@
     </div>
   </div>
 
+     
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">主页</a>
+  </nav>
   <nav class="sidebar-nav">
     {% for nav in site.nav %}
       {% assign is_relative = nav[1][0] | slice: 0 %}
