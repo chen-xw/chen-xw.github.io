@@ -29,7 +29,7 @@ nav:
   个人介绍:
     - '/about/'
   博客:
-    - 'blog/'
+    - '/blog/'
     - {分类: '/blog/categories/'}
     - {标签: '/blog/tags/'}
 
