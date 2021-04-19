@@ -318,7 +318,7 @@ a.sidebar-nav-item:focus {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    }
+}
     .fa-linkedin:before {
         content: "\f0e1";
     }
