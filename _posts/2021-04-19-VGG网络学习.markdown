@@ -6,7 +6,7 @@ categories: 深度学习
 tags:
     - 深度学习
 ---
-
+学习深度学习的一个简单代码
 ###VGG
 ---
 * VGG：由Oxford的Visual Geometry Group组提出，是2014年ILSVRC竞赛的第二名。
