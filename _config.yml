@@ -25,7 +25,7 @@ author:
 #下面这一段为博客的相关路径设置
 nav:
   个人介绍:
-    - '/'
+    - '/about/'
   博客:
     - 'blog/'
     - {分类: '/blog/categories/'}
