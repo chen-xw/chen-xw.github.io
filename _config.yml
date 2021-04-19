@@ -31,7 +31,12 @@ nav:
     - {分类: '/blog/categories/'}
     - {标签: '/blog/tags/'}
 
+paginate: 5
+paginate_path: '/blog/page:num'
 
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
 
 
 compress_html: # <https://github.com/penibelst/jekyll-compress-html>
