@@ -290,9 +290,7 @@ a.sidebar-nav-item:focus {
  * Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
  */
 
-.wrap{
-  background: rgb(230,230,230);
-}
+.wrap,
 .sidebar,
 .sidebar-toggle {
   -webkit-backface-visibility: hidden;
