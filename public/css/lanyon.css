@@ -59,10 +59,13 @@ h1, h2, h3, h4, h5, h6 {
  * use an outter wrap to position the sidebar without interferring with the
  * regular page content.
  */
-
+.wrap-post{
+  
+}
 .wrap {
   position: relative;
   width: 100%;
+  background: rgb(230,230,230);
  /* background-image:url(/image/background.jpg); */
 }
 
