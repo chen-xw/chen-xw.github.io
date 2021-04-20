@@ -315,30 +315,7 @@ a.sidebar-nav-item:focus {
   }
 }
 
- .fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-        font-size: 14px;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-    .fa-linkedin:before {
-        content: "\f0e1";
-    }
-    .fa-github:before {
-       content: "\f09b";
-    }
-    .fa-twitter:before {
-       content: "\f099";
-    }
-    .fa-weibo:before {
-       content: "\f18a";
-    }
-    .fa-envelope:before {
-       content: "\f0e0";
-    }
+
 /*
  * Posts and pages
  *
@@ -604,8 +581,4 @@ a.pagination-item:hover {
  * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
  */
 
-/* Font stack */
-$font-serif: "PT Serif", Georgia, "Times New Roman", serif;
-$font-sans: "PT Sans", Helvetica, Arial, sans-serif;
-$font-font-awesome: FontAwesome;
 
