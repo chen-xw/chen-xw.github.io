@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
-   <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-    <div id="comment"></div>
+
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
@@ -29,6 +27,9 @@ layout: default
 </div>
 {% endif %}
 <!--以下内容为通过valine添加评论功能，详见https://blog.csdn.net/zhangquan2015/article/details/80178794-->
+   <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    <div id="comment"></div>
 <script>
     var valine = new Valine();
     valine.init({
