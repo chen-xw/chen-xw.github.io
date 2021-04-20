@@ -144,15 +144,27 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 0;
   bottom: 0;
-  left: -14rem;
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
-  -webkit-transition: all .3s ease-in-out;
-          transition: all .3s ease-in-out;
+  @include transition(all .3s ease-in-out);
+
+  @if $reverse-layout {
+    left: auto;
+    right: -14rem;
+  } @else {
+    left: -14rem;
+    right: auto;
+  }
+
+  @if $theme-color != $default {
+    background-color: $theme-color;
+  } @else {
+    background-color: darken($theme-color-dark, 10%);
+  }
 }
 @media (min-width: 30em) {
   .sidebar {
