@@ -18,41 +18,6 @@ author:
     github:    https://github.com/chen-xiuwei
     email:     cxw2772809425@163.com
 
-body:
-            theme-base: theme-base-07 # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
-            layout-reverse: true # 开启后sidebar在右边，反之左边
-            sidebar-overlay: true # 开启后正文不随sidebar移动而移动
- append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章 <https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
-            - | #一些页面优化标签，看不懂可跳过
-              <meta
-                name="viewport"
-                content="width=device-width,minimum-scale=1,initial-scale=1"
-              />
-              <meta
-                http-equiv="content-type"
-                content="text/html; charset=utf-8"
-              />
-              <link
-                rel="alternate"
-                href="/feed.xml"
-                title="RSS"
-                type="application/rss+xml"
-              />
-            - | # 网站小图标，可换成你自己的图片，改href中的部分即可
-              <link
-                rel="apple-touch-icon-precomposed"
-                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320"
-              />
-              <link
-                rel="shortcut
-                icon"
-                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=32"
-              />
-
-
-
-
-
 
 #下面这一段为博客的相关路径设置
 nav:
