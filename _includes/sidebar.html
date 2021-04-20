@@ -72,7 +72,7 @@
             {% if sub_is_relative == '/' %}
               {% assign sub_url = sub_nav[1] | prepend: site.baseurl %}
             {% endif %}
-           {% if nav[0] =='分类' %}
+           {% if sub_nav[0] =='分类' %}
         {% assign napp ='fa-folder-open' %}
         {% endif %}
         {% if sub_nav[0] =='标签' %}
