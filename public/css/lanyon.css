@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 .wrap {
   position: relative;
   width: 100%;
-  background: rgb(230,230,230);
+  
  /* background-image:url(/image/background.jpg); */
 }
 
@@ -290,7 +290,9 @@ a.sidebar-nav-item:focus {
  * Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
  */
 
-.wrap,
+.wrap{
+  background: rgb(230,230,230);
+}
 .sidebar,
 .sidebar-toggle {
   -webkit-backface-visibility: hidden;
