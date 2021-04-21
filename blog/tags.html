@@ -17,7 +17,7 @@ title: 标签
       {% for post in tag[1] %}
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
       <li>
-        <small class="post-date"><div class="post-tag">{{ post.title }}</div>&nbsp;&nbsp;&nbsp;{{ post.date | date_to_string }}&nbsp;&nbsp;&nbsp;</small>
+        <small class="post-date"><h3>{{ post.title }}</h3>&nbsp;&nbsp;&nbsp;{{ post.date | date_to_string }}&nbsp;&nbsp;&nbsp;</small>
       </li>
       </a>
       {% endfor %}
