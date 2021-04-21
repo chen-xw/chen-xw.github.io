@@ -6,7 +6,9 @@ categories: 深度学习
 tags:
     - 深度学习
 ---
+
 [Overview](https://vjudge.net/problem/OpenJ_Bailian-1000)
+
 
 ---
 * VGG：由Oxford的Visual Geometry Group组提出，是2014年ILSVRC竞赛的第二名。
