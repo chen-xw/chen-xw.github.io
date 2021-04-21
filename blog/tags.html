@@ -7,6 +7,7 @@ title: 标签
 <div class="tags-expo">
   <div class="tags-expo-list">
     {% for tag in site.tags %}
+    <i class="fa fa-tags" aria-hidden="true"></i>&nbsp;
     <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
     {% endfor %}
   </div>
