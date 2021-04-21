@@ -37,7 +37,7 @@ paginate_path: '/blog/page:num'
 tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
-
+disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
 
 compress_html: # <https://github.com/penibelst/jekyll-compress-html>
   clippings: all
