@@ -341,7 +341,9 @@ a.sidebar-nav-item:focus {
 .post {
   margin-bottom: 4em;
 }
-
+.posts{
+  
+}
 /* Blog post or page title */
 .page-title,
 .post-title,
