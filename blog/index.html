@@ -2,11 +2,11 @@
 layout: default
 title: 博客
 ---
-
+<div class="wrap-post">
 <div class="posts">
   {% for post in paginator.posts %}
   
-<div class="wrap-post">
+
   <div class="post">
     <h3 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
@@ -31,7 +31,7 @@ title: 博客
       <a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-plus-circle" aria-hidden="true"></i>Read more</a>
     </div>
   </div>
-  </div>
+
   {% endfor %}
 </div>
 
@@ -51,4 +51,4 @@ title: 博客
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
-
+  </div>
