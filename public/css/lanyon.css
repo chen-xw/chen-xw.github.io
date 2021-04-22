@@ -107,9 +107,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .masthead {
   padding-top:    1rem;
-  padding-bottom: 0rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
+  padding-bottom: 42rem;
+  background-image:url(https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/home_top_bg.webp);
+  background-repeat: no-repeat;
+  background-size: inherit;
 }
 .masthead-title {
   margin-top: -20px;
