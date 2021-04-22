@@ -675,7 +675,9 @@ a.pagination-item:hover {
  */
 .box{
   padding-bottom: 42rem;
-  background-image: url(/image/background.jpg) no repeat;
+  background-image:url(/image/背景.jpg);
+  background-repeat: no-repeat;
+  background-size: inherit;
 }
 
 
