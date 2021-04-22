@@ -675,7 +675,7 @@ a.pagination-item:hover {
  */
 .box{
   padding-bottom: 42rem;
-  background-image:url(/image/half.jpg);
+  background-image:url(https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/home_top_bg.webp);
   background-repeat: no-repeat;
   background-size: inherit;
 }
