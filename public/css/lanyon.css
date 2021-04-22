@@ -673,5 +673,8 @@ a.pagination-item:hover {
 /* Colors 
  * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
  */
+.box{
+  padding-bottom: 42rem;
+}
 
 
