@@ -18,6 +18,20 @@
           </h2>
         </div>
       </div>
+      <div class="wrap-post">
+<div class="post">
+  <h3 class="post-title">{{ page.title }}</h3>
+  <!-- pv的方式，单个用户点击1篇文章，本篇文章记录1次阅读量 -->
+  <div class="post-date">
+    <i class="fa fa-calendar-times-o" aria-hidden="true"></i>
+    {{ page.date | date_to_string }}&nbsp;
+    <span id="busuanzi_container_page_pv"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;
+      <span id="busuanzi_value_page_pv"></span>次
+    </span>
+  </div>
+  {{ content }}
+</div>
+
 
       <div class="container content">
         {{ content }}
