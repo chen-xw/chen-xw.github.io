@@ -374,6 +374,7 @@ a.sidebar-nav-item:focus {
     }
 }
 .post-tag-head{
+  border-top: 1px solid rgba(255,255,255,.1);
 }
 
 .post-tag {
