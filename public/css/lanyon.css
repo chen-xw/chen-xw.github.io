@@ -379,8 +379,7 @@ a.sidebar-nav-item:focus {
 .post-box{
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
-
-.post-tag {
+.post-tag2{
   display: inline-block;
   background: rgba($theme-color, 0.15);
   padding: 0 .5rem;
@@ -390,6 +389,15 @@ a.sidebar-nav-item:focus {
   font-family: $font-sans;
   padding: 0.5rem 2rem;
   display: block;
+}
+.post-tag {
+  display: inline-block;
+  background: rgba($theme-color, 0.15);
+  padding: 0 .5rem;
+  margin-right: .5rem;
+  border-radius: 4px;
+  color: $theme-color;
+  font-family: $font-sans;
   
   &:before {
     content: "\f02b";
