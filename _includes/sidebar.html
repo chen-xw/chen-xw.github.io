@@ -87,13 +87,14 @@
       </span>-->
     {% endfor %}
   </nav>
-  <hr/>
+
    <!--这部分代码是分类标签-->
+  <div class="post-box">
   <i class="post-tag-head">随笔分类</i>
   {% for tag in site.categories %}
     <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
   {% endfor %}
-  <hr/>
+  </div>
   <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. by chen-xw.
