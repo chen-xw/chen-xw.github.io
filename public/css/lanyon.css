@@ -60,13 +60,11 @@ h1, h2, h3, h4, h5, h6 {
  * regular page content.
  */
 .wrap-post{
-  background: white;
-  
-  padding: 10px 5px 15px 20px;
-  border-radius: 20px;
-  padding-bottom: inherit;
   margin-left: -229px;
   margin-right: -230px;
+  background-color: rgba(255,255,255,.9);
+  padding: 0 20px 30px;
+  box-shadow: 0 0 20px 10px rgba(220,220,220,.3);
 }
   
 }
