@@ -64,7 +64,7 @@
              <i class="fa {{ nap }}" aria-hidden="true"></i>&nbsp;
           {{ nav[0] }}
         </a>
-
+<!--
         {% for i in (1..sub_len) %}
           {% for sub_nav in nav[1][i] %}
             {% assign sub_is_relative = sub_nav[1] | slice: 0 %}
@@ -73,27 +73,27 @@
               {% assign sub_url = sub_nav[1] | prepend: site.baseurl %}
             {% endif %}
            {% if sub_nav[0] =='分类' %}
-        {% assign napp ='fa-folder-open' %}
-        {% endif %}
-        {% if sub_nav[0] =='标签' %}
-        {% assign napp ='fa-tags' %}
-        {% endif %}
-              <a class="sidebar-nav-item sidebar-nav-item-sub {% if page.url == sub_nav[1] %}active{% endif %}" href="{{ sub_url }}">
-                   <i class="fa {{ napp }}" aria-hidden="true"></i>&nbsp;
-                {{ sub_nav[0] }}
-              </a>
+              {% assign napp ='fa-folder-open' %}
+           {% endif %}
+           {% if sub_nav[0] =='标签' %}
+              {% assign napp ='fa-tags' %}
+           {% endif %}
+           <a class="sidebar-nav-item sidebar-nav-item-sub {% if page.url == sub_nav[1] %}active{% endif %}" href="{{ sub_url }}">
+             <i class="fa {{ napp }}" aria-hidden="true"></i>&nbsp;
+             {{ sub_nav[0] }}
+           </a>
           {% endfor %}
         {% endfor %}
-      </span>
-
+      </span>-->
     {% endfor %}
-
   </nav>
+  <hr/>
    <!--这部分代码是分类标签-->
+  <i class="post-tag-head">随笔分类</i>
   {% for tag in site.categories %}
     <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
   {% endfor %}
-
+  <hr/>
   <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. by chen-xw.
