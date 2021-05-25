@@ -90,7 +90,11 @@
 
    <!--这部分代码是分类标签-->
   <div class="post-box">
-  <a href="" class="post-tag-head">随笔分类</a>
+  <div class="post-tag-head" style="display: block;">
+     <span>
+          随笔分类
+       </span>
+   </div>
   {% for tag in site.categories %}
     <a href="#{{ tag[0] | slugify }}" class="post-tag2">{{ tag[0] }}</a>
   {% endfor %}
