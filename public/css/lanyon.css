@@ -382,8 +382,9 @@ a.sidebar-nav-item:focus {
   border-radius: 4px;
   color: $theme-color;
   font-family: $font-sans;
-  font-size: 90%;
-  background: rgb(230,230,230);
+  padding: 0.5rem 2rem;
+  display: block;
+  
   &:before {
     content: "\f02b";
     font-family: $font-font-awesome;
