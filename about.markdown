@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default2
 title: 个人介绍
 permalink: /about/
 ---
