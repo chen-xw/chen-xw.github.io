@@ -89,6 +89,10 @@
     {% endfor %}
 
   </nav>
+   <!--这部分代码是分类标签-->
+  {% for tag in site.categories %}
+    <a href="#{{ tag[0] | slugify }}" class="post-tag"><i class="fa fa-folder-open" aria-hidden="true"></i>{{ tag[0] }}</a>
+  {% endfor %}
 
   <div class="sidebar-item">
     <p>
