@@ -350,6 +350,10 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
+  margin-bottom: 1em;
+  padding-top: 18px;
+}
+.post-2 {
   margin-bottom: 5em;
   padding-top: 18px;
 }
