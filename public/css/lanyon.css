@@ -381,6 +381,19 @@ a.sidebar-nav-item:focus {
   font-family: Merriweather,"Open Sans","Microsoft Jhenghei","Microsoft Yahei",sans-serif;
   
 }
+.post-tag-head>span {
+ display:block;
+ width:74px;
+ text-align:center;
+ position:absolute;
+ bottom:-9px;
+ left:35%;
+ margin-left:-5px;
+ background:#000;
+ box-shadow:#000 0 0 0 6px;
+ color:#b8b8b8;
+ line-height:20px;
+}
 .post-box{
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
