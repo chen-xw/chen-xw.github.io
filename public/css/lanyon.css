@@ -373,16 +373,16 @@ a.sidebar-nav-item:focus {
   font-size: 1.55rem;
 }
 .post-title-1 {
-  margin-top: 0;
+  margin-top: 100px;
   text-align:center;
   color: #fff;
-  font-size: 1.55rem;
+  font-size: 3.55rem;
 }
 .post-title-2 {
   margin-top: 0;
   text-align:center;
   color: #fff;
-  font-size: 1.55rem;
+  font-size: 1.25rem;
 }
 .post-half{
     margin-top: -233px;
