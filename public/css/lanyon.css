@@ -389,8 +389,8 @@ a.sidebar-nav-item:focus {
  bottom:-9px;
  left:35%;
  margin-left:-5px;
- background:#000;
- box-shadow:#000 0 0 0 6px;
+ background:#202020;
+ box-shadow:#202020 0 0 0 6px;
  color:#b8b8b8;
  line-height:20px;
 }
