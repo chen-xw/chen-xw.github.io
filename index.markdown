@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default2
 title: 主页
 ---
 <div class="box">
