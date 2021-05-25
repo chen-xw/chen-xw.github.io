@@ -342,7 +342,8 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
-  margin-bottom: 0em;
+  margin-bottom: -1em;
+  padding-top: 18px;
 }
 .posts{
   
