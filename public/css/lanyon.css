@@ -110,9 +110,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0rem;
   border-bottom: 1px solid #eee;
   padding-bottom: 14rem;
-  background-image:url(https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/nothome_top_bg.webp);
-  background-repeat: no-repeat;
-  background-size: inherit;
+  background: url(https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/nothome_top_bg.webp) no-repeat scroll center center / cover;
+  height: 40vh;
 }
 .masthead-title {
   margin-top: -20px;
