@@ -374,6 +374,11 @@ a.sidebar-nav-item:focus {
     }
 }
 .post-tag-head{
+  position: relative;
+  border-bottom: #3b3b3b 1px solid;
+  word-wrap: break-word;
+  margin: 24px 0;
+  font-family: Merriweather,"Open Sans","Microsoft Jhenghei","Microsoft Yahei",sans-serif;
   
 }
 .post-box{
