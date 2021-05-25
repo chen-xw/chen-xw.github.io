@@ -373,6 +373,8 @@ a.sidebar-nav-item:focus {
       margin-right: .2em;
     }
 }
+.post-tag-head{
+}
 
 .post-tag {
   display: inline-block;
