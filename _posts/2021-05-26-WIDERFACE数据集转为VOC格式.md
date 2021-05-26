@@ -29,7 +29,7 @@ tags:
 
 * 下载数据集可以从上述官网中下载，也可以直接在网上搜索，可以找到许多百度网盘分享的，下载后可以看到如下内容：
 
-![](../image/YOLO/下载后的数据集.png)
+![](../image/背景.jpg)
 
 * 其中WIDER_train为训练集，WIDER_test为测试集，WIDER_val为验证集，wider_face_split包含了人脸框等信息。
 
