@@ -7,13 +7,13 @@ tags:
 
 本文是对WIDERFACE数据集进行预处理，生成YOLOv3代码输入要求的COCO或者VOC格式，在此将其转化成了VOC格式，总体来说，此部分比较简单。
 
-##参考链接
+## 参考链接
 
 ----
 
 https://blog.csdn.net/sunqiande88/article/details/102414883
 
-##下载WIDERFACE数据集
+## 下载WIDERFACE数据集
 
 ------
 
