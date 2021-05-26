@@ -12,9 +12,6 @@ tags:
 
 本文是对WIDERFACE数据集进行预处理，生成YOLOv3代码输入要求的COCO或者VOC格式，在此将其转化成了VOC格式，总体来说，此部分比较简单。
 
- <head>
-     <meta name="referrer" content="no-referrer">
- </head>
 
 
 
