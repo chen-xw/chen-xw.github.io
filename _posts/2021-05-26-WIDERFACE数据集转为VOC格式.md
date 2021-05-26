@@ -22,7 +22,7 @@ tags:
 
 ----
 
-[网上资源](https://blog.csdn.net/sunqiande88/article/details/102414883)
+[https://blog.csdn.net/sunqiande88/article/details/102414883](https://blog.csdn.net/sunqiande88/article/details/102414883)
 
 ### 下载WIDERFACE数据集
 
