@@ -17,7 +17,7 @@ tags:
 
 ----
 
-https://blog.csdn.net/sunqiande88/article/details/102414883
+[](https://blog.csdn.net/sunqiande88/article/details/102414883)
 
 ## 下载WIDERFACE数据集
 
@@ -271,30 +271,14 @@ if __name__ == '__main__':
 ----
 下面的代码，就是生成labels文件的代码，实在是忘记从哪下载的了，因此没有在开始处复制链接。
 ````
-"""
- @Usage: generate custom voc-format-dataset labels, convert .xml to .txt for each image
- @author: sun qian
- @date: 2019/9/25
- @note: dataset file structure must be modified as:
- --VOCdevkit
-   --VOC2012
-     --Annotations
-     --ImageSets
-        --Main (include train.txt, test.txt, val.txt)
-     --JPEGImages
-     --labels
- @ merge val and test: Run command: type 2012_test.txt 2012_val.txt  > test.txt
-"
+
 import xml.etree.ElementTree as ET
 import os
 from os import getcwd
 
-# file list - train.txt, test.txt, val.txt
 sets = [('2012', 'train'), ('2012', 'val')]
 
-# class name
 classes = ["face"]
-
 
 def convert(size, box):
     dw = 1. / size[0]
