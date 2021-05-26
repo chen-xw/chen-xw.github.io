@@ -1,7 +1,8 @@
 ---
 layout: post
 title: VGG网络学习
-categories: 深度学习
+categories: 
+  - 深度学习
 tags:
   - 2021年04月15日
 ---
