@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  数据库中文乱码
 categories:  Mysql
 tags:
