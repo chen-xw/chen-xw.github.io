@@ -1,6 +1,6 @@
 ---
 title: VGG网络学习
-categories: Machine Learning
+categories: MachineLearning
 tags:
   - 2021年04月15日
 ---
