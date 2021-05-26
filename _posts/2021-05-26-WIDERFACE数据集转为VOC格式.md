@@ -12,13 +12,13 @@ tags:
 
 本文是对WIDERFACE数据集进行预处理，生成YOLOv3代码输入要求的COCO或者VOC格式，在此将其转化成了VOC格式，总体来说，此部分比较简单。
 
-## 参考链接
+### 参考链接
 
 ----
 
 [网上资源](https://blog.csdn.net/sunqiande88/article/details/102414883)
 
-## 下载WIDERFACE数据集
+### 下载WIDERFACE数据集
 
 ------
 
@@ -30,7 +30,7 @@ tags:
 
 * 其中WIDER_train为训练集，WIDER_test为测试集，WIDER_val为验证集，wider_face_split包含了人脸框等信息。
 
-## 训练集、验证集转换为VOC格式
+### 训练集、验证集转换为VOC格式
 
 -----
 借鉴网上的代码将WIDERFACE数据集转换为VOC格式
@@ -152,7 +152,7 @@ if __name__ == '__main__':
 * 运行代码，输出Complete...后，查看原来的文件可以看到多了三个文件，如下图，各个文件表示的含义就是VOC格式的文件。
 ![](../image/YOLO/voc转化后.png)
 
-## 测试集转换为VOC格式
+### 测试集转换为VOC格式
 
 -----
 
@@ -265,7 +265,7 @@ if __name__ == '__main__':
 
 ####  总体来说，上述已经完成了WIDERFACE数据集转换为VOC数据集，但是后续代码评估时，你可能需要（有可能，看你的评估模型）labels文件，因此下面是用于生成labels文件的代码。 
 
-## 生成labels文件
+### 生成labels文件
 
 ----
 下面的代码，就是生成labels文件的代码，实在是忘记从哪下载的了，因此没有在开始处复制链接。
