@@ -1,0 +1,35 @@
+---
+title: VGG网络学习
+date: 2021-04-15
+categories:
+  - Machine Leanring
+tags:
+  - 2021-04-15
+---
+
+**VGG**
+-----
+* VGG：由Oxford的Visual Geometry Group组提出，是2014年ILSVRC竞赛的第二名。
+* 分类：A,A-LRN,B,C,D,E共六个配置（根据卷积核大小和卷积层数目），D,E比较常用，分别称为VGG 16和VGG 19。
+* 参考资料：(https://zhuanlan.zhihu.com/p/41423739)(https://www.cnblogs.com/lfri/p/10493408.html)
+* 模型结构：(https://dgschwend.github.io/netscope/#/preset/vgg-16)
+* 参考代码(tensorflow)：(http://www.cs.toronto.edu/~frossard/post/vgg16/)
+* 训练参考代码(tensorflow)：(https://github.com/machrisaa/tensorflow-vgg)
+**网络结构**
+----
+* 创新点（相比于AlexNet)
+> 采用连续的n个3 x 3的卷积核代替AlexNet中的较大卷积核，比如可以用3个3 x 3的卷积核代替一个7 x 7的卷积核，可以通过图像理解（参考资料中），也可以通过公式计算，比如8 x 8的图像经过一层卷积(步长为1，padding为0)之后输出为6 x 6的图像，再经过一层卷积之后输出为4 x 4，再经过一层之后输出为2 x 2的图像，效果跟一次7 x 7的效果一样。
+* VGG-16
+> 由13个卷积层，5个池化层，3个全连接层组成，其中卷积核都为3 x 3，池化用的都是2 x 2。
+* VGG-19
+> 由16个卷积层，5个池化层，3个全连接层组成。
+###代码
+----
+* 环境
+> 自身电脑的环境为，tensorflow-cpu 2.4.0,numpy 1.19.5 ,scipy 1.1.0 
+* 说明
+> 由于tensorflow2.0以上版本的相比于tensorflow2.0以下版本的变化挺大的，直接用2.0以上版本的运行，可能会出问题，问题如下：module tensorflow has no attribute truncated_normal 可以通过添加如下代码：(1)在import下添加`tf.compat.v1.disable_eager_execution() `，(2)修改`tf.truncated_normal`为`tf.compat.v1.random.truncated_normal`
+* 运行截图（检测图片为黄鼠狼）
+![](https://img2020.cnblogs.com/blog/1770410/202104/1770410-20210415213715234-1664002774.png)
+
+如有问题，欢迎交流；如有错误，欢迎指正。
