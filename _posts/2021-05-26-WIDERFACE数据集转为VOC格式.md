@@ -17,7 +17,7 @@ tags:
 
 ----
 
-[](https://blog.csdn.net/sunqiande88/article/details/102414883)
+[链接](https://blog.csdn.net/sunqiande88/article/details/102414883)
 
 ## 下载WIDERFACE数据集
 
@@ -158,8 +158,8 @@ if __name__ == '__main__':
 -----
 
 * 网上搜了很长时间没有找到转换测试集的代码，自己认真分析了上述代码，测试集没有人脸框的标注，原来可以修改上述代码，是自己菜了，代码如下：
+
 ```
-# -*- coding: utf-8 -*-
 
 import shutil
 import random
