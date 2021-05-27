@@ -10,7 +10,9 @@ tags:
 ### 参考链接
 
 [https://www.cnblogs.com/Assist/p/11091501.html](https://www.cnblogs.com/Assist/p/11091501.html)
+
 [https://blog.csdn.net/lilai619/article/details/79695109](https://blog.csdn.net/lilai619/article/details/79695109)
+
 [https://blog.csdn.net/sunqiande88/article/details/102414883](https://blog.csdn.net/sunqiande88/article/details/102414883)
 
 ### 其他资源
@@ -105,10 +107,11 @@ os.system("cat 2007_train.txt 2007_val.txt > train.txt")
 
 ----
 这一部分你可能觉得很突兀，但这是为了下一章节修改anchors需要的工作，这个部分你可以先跳过，当需要的时候再回到这。
-* 下载k-means算法或者k-means++算法对WIDERFACE数据集进行聚类，由于时间的关系，忘记是从哪下载的代码了，应该是下面的代码，记得有一个代码是不成功的（但愿不是这一个），
-```
-import numpy as np
+* 下载k-means算法或者k-means++算法对WIDERFACE数据集进行聚类，由于时间的关系，忘记是从哪下载的代码了，应该是下面的代码，记得有一个代码是不成功的（但愿不是这一个）。
 
+```
+
+import numpy as np
 
 class YOLO_Kmeans:
 
