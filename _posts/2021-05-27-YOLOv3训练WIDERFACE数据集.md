@@ -7,6 +7,13 @@ tags:
 
 本文主要描写了使用官网给出的YOLOv3目标检测模型（也就是使用darknet)，在Linux下对WIDERFACE数据集进行训练，以此来实现人脸检测的任务。
 
+
+ <head>
+     <meta name="referrer" content="no-referrer">
+ </head>
+
+
+
 ### 参考链接
 
 [https://www.cnblogs.com/Assist/p/11091501.html](https://www.cnblogs.com/Assist/p/11091501.html)
