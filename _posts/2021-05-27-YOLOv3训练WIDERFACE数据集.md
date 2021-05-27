@@ -274,6 +274,9 @@ if __name__ == "__main__":
 ![](https://chen-xiuwei.github.io/image/YOLO/最后三处.png)
     
     > 前面K均值聚类算法得到的九组anchors就是用于此部分的，修改成先前得到的九组anchors；修改classes为1，filters为18（（1+5）*3）。
+    
+
+
 #### 前面的准备工作已经结束，下一步进行数据集的训练。
 
 ### 下载预训练权重
