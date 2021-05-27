@@ -270,7 +270,9 @@ if __name__ == "__main__":
 nohup ./darknet detector train cfg/voc.data cfg/yolov3-voc.cfg darknet53.conv.74 -gpus 0,1 &
 ```                                                                   
 > 如果出现没有权限，把错误百度，有解决方法。
+
 ####到目前为止，训练的过程已经结束，当你理解YOLOv3模型和训练过程的参数的含义后，下一步就是常说的“炼药”的过程了，修改自己的学习率，batch等参数让自己的模型更精确。
+
 ### 可能遇到的错误
 
 -----
@@ -281,4 +283,5 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64 && sudo ldconfig
 ```
 > 通过输入密码后，成功解决了上述错误。
 
-####如有问题，欢迎交流！
+
+#### 如有问题，欢迎交流！
