@@ -36,21 +36,21 @@ tags:
 YOLOv3源码既可以在Linux下使用，也可以在Windows下使用，Windows的使用可以参考链接中的使用方法，本文是基于Linux下使用的。
 * 首先从YOLOv3源码处，下载源码，参考上面其他资源处，可以使用git下载，也可以在本地下载后，上传到服务器中。下载后会出现下面的各个文件：
 
-![](../image/YOLO/代码源文件.png)
+![](https://chen-xiuwei.github.io/image/YOLO/代码源文件.png)
 
 *  下载后，需要进行make操作，修改Makefile文件,如下图：
 
-![](../image/YOLO/makefile1.png)
+![](https://chen-xiuwei.github.io/image/YOLO/makefile1.png)
 
 > 首先修改第一处，如上图，可以修改GPU=1，表示使用GPU，CUDNN=1，表示使用CUDN加速，下面的同理，我在运行时，只使用了GPU=1，速度已经可以达到我的要求。
 
 > 修改第二处，NVCC的位置，将后面的nvcc修改成自己nvcc在服务器上的位置,如下图
 
-![](../image/YOLO/makefile2.png)
+![](https://chen-xiuwei.github.io/image/YOLO/makefile2.png)
 
 #### 目前为止，算法已经可以在本地运行，可以输入./darknet，观察输出结果，如果输出为下图，证明此部分工作已经完成。
 
-![](../image/YOLO/检验darknet运行是否成功.png)
+![](https://chen-xiuwei.github.io/image/YOLO/检验darknet运行是否成功.png)
 
 ### 数据集进行处理，生成训练和验证的图片路径
 
@@ -118,8 +118,8 @@ os.system("cat 2007_train.txt 2007_val.txt > train.txt")
 ```
 * 执行成功之后，可以看到生成了如下图的三个文件。
 
-![](../image/YOLO/数据集的处理1.png)
-![](../image/YOLO/数据集的处理2.png)
+![](https://chen-xiuwei.github.io/image/YOLO/数据集的处理1.png)
+![](https://chen-xiuwei.github.io/image/YOLO/数据集的处理2.png)
 
 ### 使用K均值聚类算法得到自己的anchors
 
@@ -241,12 +241,12 @@ if __name__ == "__main__":
 1. 修改names文件
    - names文件处于data文件夹下，可以新建一个names文件，里面内容只写入face一个属性，如下图：
 
-![](../image/YOLO/names文件.png)
+![](https://chen-xiuwei.github.io/image/YOLO/names文件.png)
 
 2. 修改data文件
     - data文件处于cfg文件下，可以新建一个data文件，打开后如下图：
 
-![](../image/YOLO/修改data文件.png)
+![](https://chen-xiuwei.github.io/image/YOLO/修改data文件.png)
     
     - 修改classes=1，只进行人脸检测
     - 修改train和valid路径，本文上一步生成的三个文件中的前两个的路径
@@ -255,18 +255,18 @@ if __name__ == "__main__":
 3. 修改cfg文件
     - 修改batch、subdivisions属性，分为test和train两部分，由于是进行训练，因此修改如下：
 
-![](../image/YOLO/cfg文件.png)
+![](https://chen-xiuwei.github.io/image/YOLO/cfg文件.png)
     
     > 其中batch需要根据自己电脑的配置进行修改，服务器一般可以使用64，32，自己的电脑可能要低一些，16，32都可，根据自己的需求,subdivisions也得根据自己的电脑修改，如果太高，会严重消耗CPU资源。
     - 修改learning_rate,学习率可以使用多种策略，（可以上网百度，查看各种策略的区别），如下图
 
-![](../image/YOLO/学习率.png)
+![](https://chen-xiuwei.github.io/image/YOLO/学习率.png)
 
     > 此部分使用了step策略，初始学习率设置为0.001，40000步后学习率降低为0.0001，45000步后学习率降低为0.00001，可以根据自己的需求进行调整，
     
     - 修改anchors，classes和filters属性，此部分总共需要修改三处，每处三个属性，从文件的最后面向前，三部分[yolo]处，如下图
     
-![](../image/YOLO/最后三处.png)
+![](https://chen-xiuwei.github.io/image/YOLO/最后三处.png)
     
     > 前面K均值聚类算法得到的九组anchors就是用于此部分的，修改成先前得到的九组anchors；修改classes为1，filters为18（（1+5）*3）。
 #### 前面的准备工作已经结束，下一步进行数据集的训练。
@@ -289,7 +289,7 @@ if __name__ == "__main__":
 ```
 * 查看nohup.out文件，查看中间过程，如下图：
 
-![](../image/YOLO/nohup.png)
+![](https://chen-xiuwei.github.io/image/YOLO/nohup.png)
 
 * 如果训练到中间，因其他原因导致服务器意外关闭，可以加载上已经训练出的模型权重，重新训练，如下代码
 ```
