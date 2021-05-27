@@ -257,19 +257,23 @@ if __name__ == "__main__":
     - 修改train和valid路径，本文上一步生成的三个文件中的前两个的路径
     - 修改names路径，本章节第一小步修改的names文件路径
     - backup属性可以不用修改，它的用途忘记了，健忘
+
+
 3. 修改cfg文件
-    - 修改batch、subdivisions属性，分为test和train两部分，由于是进行训练，因此修改如下：
+* 修改batch、subdivisions属性，分为test和train两部分，由于是进行训练，因此修改如下：
 
 ![](https://chen-xiuwei.github.io/image/YOLO/cfg文件.png)
     
     > 其中batch需要根据自己电脑的配置进行修改，服务器一般可以使用64，32，自己的电脑可能要低一些，16，32都可，根据自己的需求,subdivisions也得根据自己的电脑修改，如果太高，会严重消耗CPU资源。
-    - 修改learning_rate,学习率可以使用多种策略，（可以上网百度，查看各种策略的区别），如下图
+
+
+* 修改learning_rate,学习率可以使用多种策略，（可以上网百度，查看各种策略的区别），如下图
 
 ![](https://chen-xiuwei.github.io/image/YOLO/学习率.png)
 
     > 此部分使用了step策略，初始学习率设置为0.001，40000步后学习率降低为0.0001，45000步后学习率降低为0.00001，可以根据自己的需求进行调整，
     
-    - 修改anchors，classes和filters属性，此部分总共需要修改三处，每处三个属性，从文件的最后面向前，三部分[yolo]处，如下图
+* 修改anchors，classes和filters属性，此部分总共需要修改三处，每处三个属性，从文件的最后面向前，三部分[yolo]处，如下图
     
 ![](https://chen-xiuwei.github.io/image/YOLO/最后三处.png)
     
