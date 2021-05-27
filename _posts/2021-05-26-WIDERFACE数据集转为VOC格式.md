@@ -29,7 +29,7 @@ tags:
 
 * 下载数据集可以从上述官网中下载，也可以直接在网上搜索，可以找到许多百度网盘分享的，下载后可以看到如下内容：
 
-![](../image/YOLO/下载后的数据集.png)
+![](https://chen-xiuwei.github.io/image/YOLO/下载后的数据集.png)
 
 * 其中WIDER_train为训练集，WIDER_test为测试集，WIDER_val为验证集，wider_face_split包含了人脸框等信息。
 
@@ -153,7 +153,7 @@ if __name__ == '__main__':
 ```
 * 其中main函数中，可以修改val和train来改成自己需要的，前者为验证集，后者为训练集，这部分代码执行是与下载的数据集同一个文件中的。
 * 运行代码，输出Complete...后，查看原来的文件可以看到多了三个文件，如下图，各个文件表示的含义就是VOC格式的文件。
-![](../image/YOLO/voc转化后.png)
+![](https://chen-xiuwei.github.io/image/YOLO/voc转化后.png)
 
 ### 测试集转换为VOC格式
 
@@ -263,7 +263,7 @@ if __name__ == '__main__':
 ```
 * 之前转换的代码删了，这部分是自己写博客的时候，凭记忆修改的，如果有问题，可以自己读一下代码。
 * 代码运行提示成功后，可以看到输出了两个文件，如下图，之所以没有以前的几个文件是因为测试集没有人脸框的标注。
-![](../image/YOLO/测试集.png)
+![](https://chen-xiuwei.github.io/image/YOLO/测试集.png)
 
 
 ####  总体来说，上述已经完成了WIDERFACE数据集转换为VOC数据集，但是后续代码评估时，你可能需要（有可能，看你的评估模型）labels文件，因此下面是用于生成labels文件的代码。 
@@ -333,8 +333,8 @@ if __name__ == '__main__':
 
 ````
 * 运行上述代码之后，可以看到文件夹下多了一个labels文件，里面的信息是归一化后的坐标信息和类别。
-![](../image/YOLO/labels文件.png)
-![](../image/YOLO/labels文件2.png)
+![](https://chen-xiuwei.github.io/image/YOLO/labels文件.png)
+![](https://chen-xiuwei.github.io/image/YOLO/labels文件2.png)
 
 #### 到目前为止，转换的工作已经全部完成，下一步就行进行自己的训练了。
 
