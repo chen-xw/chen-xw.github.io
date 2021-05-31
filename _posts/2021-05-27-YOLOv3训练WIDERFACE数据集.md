@@ -2,7 +2,7 @@
 title:  YOLOv3训练WIDERFACE数据集
 categories:  YOLOv3
 tags:
-  - 2021年05月27日
+  - 2021年05月
 ---
 
 本文主要描写了使用官网给出的YOLOv3目标检测模型（也就是使用darknet)，在Linux下对WIDERFACE数据集进行训练，以此来实现人脸检测的任务。
