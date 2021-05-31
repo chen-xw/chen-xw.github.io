@@ -2,7 +2,7 @@
 title:  YOLOv3训练WIDERFACE数据集
 categories:  YOLOv3
 tags:
-  - 2021年05月28日
+  - 2021年05月
 ---
 
 本文主要是基于上一篇YOLOv3训练WIDERFACE数据集而补充的知识，上一篇中使用了YOLOv3的官网代码进行训练的，本文中将说明使用Tensorflow和keras进行训练,主要是基于Lilnux下，在Windows下也可以运行，只不过对于路径的问题，需要修改一下，详见文章底部。
