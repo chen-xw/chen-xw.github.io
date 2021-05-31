@@ -7,6 +7,11 @@ tags:
 
 本文主要是在WIDERFACE数据集上评估自己的模型（利用官网代码生成的模型），包括图片的检测、损失函数的绘制、验证集上准确率和召回率的计算以及P-R曲线的绘制。
 
+ <head>
+     <meta name="referrer" content="no-referrer">
+ </head>
+
+
 
 ### 参考资源
 
@@ -38,6 +43,8 @@ tags:
 这部分的前提应该是你有每次迭代过程的记录文件，可以是nohup命令得出的nohup.out文件，也可以是其他形式的文件。
 
 * 首先利用extract_log.py文件对nohup.out文件进行处理，取出每次迭代过程的记录文件，去除其他没有用的信息，代码借鉴了参考资源中的代码。运行成功后，会得到下图中的两个文件（我生成了多次）。
+
+![](http://chen-xiuwei.github.io/image/YOLO/损失函数.png)
 
 ```
 # coding=utf-8
@@ -185,6 +192,8 @@ print('AP：', inf['ap'])
 AP值的计算无非就是将验证集的检测结果同原数据进行对比，设置相应的阈值，计算数据即可。
 
 * 首先是要对验证集上的检测结果进行处理，将每幅图片检出的人脸保存到每一个txt文件中，有多少张图片就会有多少txt文件。代码如下：
+
+![](http://chen-xiuwei.github.io/image/YOLO/test结果.png)
 
 ```
 import os
