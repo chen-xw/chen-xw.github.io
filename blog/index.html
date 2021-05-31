@@ -37,19 +37,19 @@ title: 博客
 </div>
 
 <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">上一页</a>
-  {% else %}
-    <span class="pagination-item older">上一页</span>
-  {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/">下一页</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/">上一页</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}">下一页</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}">上一页</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">下一页</span>
+    <span class="pagination-item newer">上一页</span>
+  {% endif %}
+   {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">下一页</a>
+  {% else %}
+    <span class="pagination-item older">下一页</span>
   {% endif %}
 </div>
   </div>
