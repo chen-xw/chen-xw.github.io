@@ -2,7 +2,7 @@
 title:  WIDERFACE数据集转化为VOC格式
 categories:  YOLOv3
 tags:
-  - 2021年05月26日
+  - 2021年05月
 ---
 
 
