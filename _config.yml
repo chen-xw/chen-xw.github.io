@@ -30,7 +30,7 @@ nav:
     - {分类: '/blog/categories/'}
     - {标签: '/blog/tags/'}
 
-paginate: 5
+paginate: 6
 paginate_path: '/blog/page:num'
 
 # Where are tags and categories displayed
