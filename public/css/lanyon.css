@@ -336,10 +336,7 @@ a.sidebar-nav-item:focus {
           transition: transform .3s ease-in-out;
   background-color: white;
 }
-.wrap2,
-.sidebar-toggle {
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-          transition: transform .3s ease-in-out;
+.warp {
   background-color: white;
 }
 
