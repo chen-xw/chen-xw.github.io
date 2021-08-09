@@ -336,9 +336,7 @@ a.sidebar-nav-item:focus {
           transition: transform .3s ease-in-out;
   background-color: white;
 }
-.warp {
-  background-color: white;
-}
+
 
 #sidebar-checkbox:checked + .sidebar {
   z-index: 10;
