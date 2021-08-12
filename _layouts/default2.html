@@ -9,13 +9,30 @@
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
+ 
+    
+     <div class="wrap">
       <div class="masthead_3">
-        <div class="container content">
-          {{ content }}
+        <div class="container"> 
+          <div class="post-half-2">
+           <h1 class="post-title-1">Hello, My name is Xiuwei Chen</h1>
+            <h3 class="post-title-2">看开是福，看淡是幸</h3>
+            <h3 class="post-title-3">--林清玄</h3>
+          </div>
+         <!--   <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>  -->
+            <small>{{ site.tagline }}</small>
+          </h2>
         </div>
       </div>
-    </div>
+
+
+
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div> 
+    
+
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
     <script src='{{ site.baseurl }}/public/js/script.js'></script>
