@@ -435,6 +435,28 @@ a.sidebar-nav-item:focus {
   font-size: 1.25rem;
   font-family: 'Long Cang',cursive;
 }
+.post-title-1-1 {
+  margin-top: 300px;
+  text-align:center;
+  color: #fff;
+  font-size: 5.55rem;
+  text-shadow: 0 3px 6px rgba(0,0,0,.3);
+  font-family: 'Playball',cursive;
+}
+.post-title-2-2 {
+  margin-top: 0;
+  text-align:center;
+  color: #fff;
+  font-size: 2.25rem;
+  font-family: 'Long Cang',cursive;
+}
+.post-title-3-3 {
+  margin-top: 0;
+  text-align:center;
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: 'Long Cang',cursive;
+}
 .post-half{
     margin-top: -233px;
     margin-bottom: 160px;
