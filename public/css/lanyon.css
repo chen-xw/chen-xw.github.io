@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url(https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/home_top_bg.webp) no-repeat scroll center center / cover;
   height: 40vh;
 }
-
+/* 可以设置背景整个界面铺满
 .masthead_3 {
   background: url(https://chen-xiuwei.github.io/image/page/2.jpg) no-repeat scroll center center / cover,url(https://chen-xiuwei.github.io/image/page/4.jpg) no-repeat scroll center center / cover,url(https://chen-xiuwei.github.io/image/page/3.jpg) no-repeat scroll center center / cover;
   position: fixed;
@@ -132,6 +132,15 @@ h1, h2, h3, h4, h5, h6 {
   zoom: 1;
   background-position: center 0;
   background-size: cover;
+}
+*/
+.masthead_3 {
+  padding-top:    1rem;
+  margin-bottom: 0rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 52rem;
+  background: url(https://chen-xiuwei.github.io/image/page/2.jpg) no-repeat scroll center center / cover,url(https://chen-xiuwei.github.io/image/page/4.jpg) no-repeat scroll center center / cover,url(https://chen-xiuwei.github.io/image/page/3.jpg) no-repeat scroll center center / cover;
+  height: 40vh;
 }
 .masthead-title {
   margin-top: -20px;
