@@ -18,7 +18,7 @@ title: 主页
 
 * 邮箱：xiuwei_chen_CHN@163.com
 * 脸书：xiuwei_chen_CHN
-* QQ:2772809425
+* QQ: 2772809425
 
 
 
