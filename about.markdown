@@ -5,8 +5,6 @@ permalink: /about/
 ---
 
 ---
-* 本科TYUT17级在读
-* 保研SYSU
-* 
+* SYSU Master21在读
 
 [jekyll-organization]: https://github.com/jekyll
