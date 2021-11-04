@@ -112,7 +112,8 @@
   {% endfor %}
   </div>
   <div class="sidebar-item">
-          <div class="showTime">当前时间：2021年2月19-20时35分16秒</div>
+          <i class="fa fa-spinner fa-pulse fa-3x fa-fw" aria-hidden="true"></i>&nbsp; &nbsp;
+          <div class="showTime">2021年2月19-20时35分16秒</div>
                <script>
                var t = null;
                t = setTimeout(time, 1000); //开始运行
@@ -126,7 +127,6 @@
                var m = dt.getMinutes(); //获取分
                var s = dt.getSeconds(); //获取秒
                document.querySelector(".showTime").innerHTML =
-                    "当前时间：" +
                     y +
                     "年" +
                     mt +
@@ -146,9 +146,9 @@
        <span id="busuanzi_container_site_uv">
          <i class="fa fa-eye" aria-hidden="true"></i>&nbsp; &nbsp;
          <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-         <span id="busuanzi_container_site_pv" >&nbsp; &nbsp;<span id="busuanzi_value_site_pv"></span> 次 </span><br>
+         <span id="busuanzi_container_site_pv" ><span id="busuanzi_value_site_pv"></span> 次 </span><br>
          <i class="fa fa-users" aria-hidden="true"></i>&nbsp; &nbsp;
-         <span id="busuanzi_container_site_uv" >&nbsp; &nbsp;<span id="busuanzi_value_site_uv"></span> 人 </span>
+         <span id="busuanzi_container_site_uv" ><span id="busuanzi_value_site_uv"></span> 人 </span>
       </span>
     <p>
       &copy; {{ site.time | date: '%Y' }}. by chen-xw.
