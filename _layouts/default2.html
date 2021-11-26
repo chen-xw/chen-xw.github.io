@@ -38,31 +38,3 @@
     <script src='{{ site.baseurl }}/public/js/script.js'></script>
   </body>
 </html>
-<script>
-        var curIndex=0;
-        //时间间隔 单位毫秒
-        var timeInterval=2000;
-        var arr=new Array();
-        <c:forEach items="${indexphoto}" var="indexphoto">		
-        arr.push("/image/page/${indexphoto.getFileName()}");	//取出后台传递过来的数据库数据，并将图片文件名写入arr数组
-		alert("${indexphoto.getFileName()}");
-        </c:forEach> 
-        setInterval(changeImg,timeInterval);
-        function changeImg()
-         {
-           var obj=document.getElementById("obj");
-           if (curIndex==arr.length-1) 
-           {
-              curIndex=0;
-            }
-         else
-        {
-            curIndex+=1;
-        }
-          obj.src=arr[curIndex]; //设置图片的路径
-       }
-   </script>
-   <ul>
-	<img id=obj
-	src="/image/page/2.png" />
-</ul>
