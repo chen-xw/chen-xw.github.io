@@ -1,6 +1,6 @@
 ---
 title: Multiple Instance Learning
-categories: Machine Learning
+categories: Machine-Learning
 tags:
   - 2021年12月05日
 ---
