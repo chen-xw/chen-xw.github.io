@@ -1,6 +1,6 @@
 ---
 title: Data Augmentation
-categories: Machine-Learning
+categories: Machine Learning
 tags:
   - 2022年09月04日
 ---
