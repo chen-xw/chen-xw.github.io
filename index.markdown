@@ -115,6 +115,11 @@ permalink: /
         margin-bottom: 35px;
         align-items: flex-start;
     }
+        /* News 部分专用样式 - 更紧凑的间距 */
+    .news-list li {
+        margin-bottom: 6px; /* 从 12px 减小到 6px */
+        line-height: 1.4;   /* 控制行高 */
+    }
     
     /* 论文图片区域 */
         /* 1. 修改图片容器，增加 relative 定位 */
@@ -233,7 +238,8 @@ permalink: /
             My research interests focus on <strong>Multimodal Reasoning</strong>, including the <strong>Understanding</strong> and <strong>Self-Improvement</strong>. Priored that, my focus on Person Re-identification and Incremental Learning.
         </p>
 
-        <div class="section-title">🔥 News</div> <ul class="custom-list">
+        /* <div class="section-title">🔥 News</div> <ul class="custom-list"> */
+        <div class="section-title">🔥 News</div> <ul class="custom-list news-list">
             <li><span class="date-text"><strong>[2025.10]</strong></span> 🎉 One paper (SemHiTok) is accepted by ICLR 2026.</li>
             <li><span class="date-text"><strong>[2025.10]</strong></span> 🔥 We release EVA, a framework that internalizes explicit tool calling into the model's intrinsic capabilities.</li>
             <li><span class="date-text"><strong>[2025.10]</strong></span> 🔥 We release C2-Evo, a method for co-evolving models and data, an agent for drawing auxiliary line.</li>
