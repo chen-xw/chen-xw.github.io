@@ -234,6 +234,7 @@ permalink: /
         </p>
 
         <div class="section-title">🔥 News</div> <ul class="custom-list">
+            <li><span class="date-text"><strong>[2025.10]</strong></span> 🎉 One paper (SemHiTok) is accepted by ICLR 2026.</li>
             <li><span class="date-text"><strong>[2025.10]</strong></span> 🔥 We release EVA, a framework that internalizes explicit tool calling into the model's intrinsic capabilities.</li>
             <li><span class="date-text"><strong>[2025.10]</strong></span> 🔥 We release C2-Evo, a method for co-evolving models and data, an agent for drawing auxiliary line.</li>
             <li><span class="date-text"><strong>[2025.09]</strong></span> 🔥 We release TransMamba, a simple method to quickly adapt Transformer models to the Mamba framework.</li>
@@ -244,6 +245,28 @@ permalink: /
 
         <div class="section-title">📝 Publications and Preprints</div>
         <ul class="pub-list">
+
+            <li>
+                <div class="pub-item">
+                    <div class="pub-image">
+                        <!-- 在这里添加标签，文字可以改成 arXiv 2025 等 -->
+                        <span class="pub-img-badge">arXiv 2025</span> 
+                        <img src="./image/SemHiTok.png" alt="MME-CoF Benchmark">
+                    </div>
+                    <div class="pub-content">
+                        <div class="pub-title-row">
+                            <span class="badge tag-arxiv">Arxiv</span> <a href="https://arxiv.org/abs/2503.06764">SemHiTok: A Unified Image Tokenizer via Semantic-Guided Hierarchical Codebook for Multimodal Understanding and Generation</a> 
+                        </div>
+                        <div class="pub-authors">
+                            Zisheng Chen, Chunwei Wang, Runhui Huang, Hongbin Xu, Xiuwei Chen, Jun Zhou, Jianhua Han, Hang Xu, Xiaodan Liang
+                        </div>
+                        <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> 
+                        <div class="pub-links"> 
+                            <a href="https://arxiv.org/abs/2503.06764" class="pub-btn">PDF</a>
+                        </div>  
+                    </div>    
+                </div>   
+            </li>
 
             <!-- 论文 1 示例 -->
             <li>
