@@ -280,33 +280,14 @@ permalink: /
                 </div>    
             </li>
 
-            <li>
-                <div class="pub-item">
-                    <div class="pub-image">
-                        <img src="./imgs/mme-cof-teaser.png" alt="MME-CoF Benchmark">
-                    </div>
-                    <div class="pub-content">
-                        <div class="pub-title-row">
-                            <span class="badge tag-conf">ICCV 2023</span> <a href="#">Dynamic Residual Classifier for Class Incremental Learning</a> </div>
-                        <div class="pub-authors">
-                            Xiuwei Chen, Xiaobin Chang </div>
-                        <div style="font-style: italic; color: #666; font-size: 14px;">ICCV 2023</div> <div class="pub-links"> <a href="https://arxiv.org/abs/2308.13305" class="pub-btn">PDF</a>
-                            <a href="https://github.com/chen-xw/DRC-CIL" class="pub-btn">Code</a>
-                            <a href="https://github.com/chen-xw/DRC-CIL" class="pub-btn">Project Page</a>
-                    </div>  
-                </div>    
-            </li>
             
         </ul>
 
 
         <div class="section-title">🔥 Educations</div> <ul class="custom-list">
-            <li><span class="date-text"><strong>[2025.10]</strong></span> 🔥 We release EVA, </li>
-            <li><span class="date-text"><strong>[2025.10]</strong></span> 🔥 We release C2-Evo, </li>
-            <li><span class="date-text"><strong>[2025.09]</strong></span> 🔥 We release TransMamba, an.</li>
-            <li><span class="date-text"><strong>[2023.10]</strong></span> 🎉 One paper is accepted by PRCV 2023.</li>
-            <li><span class="date-text"><strong>[2023.07]</strong></span> 🎉 One paper (DRC) is accepted by ICCV 2023.</li>
-            <li><span class="date-text"><strong>[2021.01]</strong></span> Welcome to my new homepage!</li>
+            <li><span class="date-text">2024.09 - now,</span>  PhD Student, Sun Yat-sen University (SYSU) </li>
+            <li><span class="date-text">2021.09 - 2024.06,</span>  Master of Student, Sun Yat-sen University (SYSU) </li>
+            <li><span class="date-text">2017.09 - 2021.06,</span>  Bachelor of CS, The Taiyuan University of Technology (TYUT) </li>
         </ul>
 
 
