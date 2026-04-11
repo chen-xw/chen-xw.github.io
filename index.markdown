@@ -242,6 +242,7 @@ permalink: /
                             <a href="https://github.com/chen-xw/TransMamba-main" class="pub-btn">Project Page</a>
                     </div>  
                 </div>    
+                </div>   
             </li>
 
 
@@ -260,6 +261,7 @@ permalink: /
                             <a href="https://c2-evo.github.io/" class="pub-btn">Project Page</a>
                     </div>  
                 </div>    
+                </div>   
             </li>
 
             
@@ -278,8 +280,26 @@ permalink: /
                             <a href="https://github.com/chen-xw/TransMamba-main" class="pub-btn">Project Page</a>
                     </div>  
                 </div>    
+                </div>   
             </li>
 
+        <li>
+                <div class="pub-item">
+                    <div class="pub-image">
+                        <img src="./imgs/mme-cof-teaser.png" alt="MME-CoF Benchmark">
+                    </div>
+                    <div class="pub-content">
+                        <div class="pub-title-row">
+                            <span class="badge tag-conf">ICCV 2023</span> <a href="#">Dynamic Residual Classifier for Class Incremental Learning</a> </div>
+                        <div class="pub-authors">
+                            Xiuwei Chen, Xiaobin Chang </div>
+                        <div style="font-style: italic; color: #666; font-size: 14px;">ICCV 2023</div> <div class="pub-links"> <a href="https://arxiv.org/abs/2308.13305" class="pub-btn">PDF</a>
+                            <a href="https://github.com/chen-xw/DRC-CIL" class="pub-btn">Code</a>
+                            <a href="https://github.com/chen-xw/DRC-CIL" class="pub-btn">Project Page</a>
+                    </div>  
+                </div>    
+                </div>   
+            </li>
             
         </ul>
 
