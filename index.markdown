@@ -163,7 +163,7 @@ permalink: /
              I am currently a Ph.D candidate in HCP Group at <a href="https://sai.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN">Prof. Prof. Xiaodan Liang</a>. I received my Master's degree at the <a href="https://www.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://xb-chang.github.io/">Prof. Xiaobin Chang</a>. Prior to SYSU, I obtained a B.Eng from <a href="https://www.tyut.edu.cn/">TYUT</a> and majored in Computer Science and Technology (CS) in 2021.
         </p>
         <p>
-            My research interests focus on <strong>Multimodal Reasoning</strong>, including the <strong>Understanding</strong> and <strong>Self-Improvement</strong>. Priored that, my focus on <strong>Person Re-identification</strong> and <strong>Incremental Learning</strong>.
+            My research interests focus on <strong>Multimodal Reasoning</strong>, including the <strong>Understanding</strong> and <strong>Self-Improvement</strong>. Priored that, my focus on Person Re-identification and Incremental Learning.
         </p>
 
         <div class="section-title">🔥 News</div> <ul class="custom-list">
@@ -175,7 +175,7 @@ permalink: /
             <li><span class="date-text"><strong>[2021.01]</strong></span> Welcome to my new homepage!</li>
         </ul>
 
-        <div class="section-title">📝 Publications and Preprints</div> <div class="pub-category">o1/R1-like CoT Reasoning for Generation</div>
+        <div class="section-title">📝 Publications and Preprints</div>
         <ul class="pub-list">
             <li>
                 <div class="pub-title-row">
