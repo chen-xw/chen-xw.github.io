@@ -207,7 +207,7 @@ permalink: /
     <div class="academic-main">
         
         <div class="section-title">About Me</div> <p>
-             I am currently a Ph.D candidate in HCP Group at <a href="https://sai.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN">Prof. Prof. Xiaodan Liang</a>. I received my Master's degree at the <a href="https://www.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://xb-chang.github.io/">Prof. Xiaobin Chang</a>. Prior to SYSU, I obtained a B.Eng from <a href="https://www.tyut.edu.cn/">TYUT</a> and majored in Computer Science and Technology (CS) in 2021.
+             I am currently a Ph.D candidate in HCP Group at <a href="https://sai.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN">Prof. Xiaodan Liang</a>. I received my Master's degree at the <a href="https://www.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://xb-chang.github.io/">Prof. Xiaobin Chang</a>. Prior to SYSU, I obtained a B.Eng from <a href="https://www.tyut.edu.cn/">TYUT</a> and majored in Computer Science and Technology (CS) in 2021.
         </p>
         <p>
             My research interests focus on <strong>Multimodal Reasoning</strong>, including the <strong>Understanding</strong> and <strong>Self-Improvement</strong>. Priored that, my focus on Person Re-identification and Incremental Learning.
@@ -241,18 +241,24 @@ permalink: /
                     </div>  
                 </div>    
             </li>
-            
+
             <li>
-                <div class="pub-title-row">
-                    <span class="badge tag-conf">NeurIPS 2025</span> <a href="#">T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level and Token-level CoT</a> </div>
-                <div class="pub-authors">
-                    <strong>Xiuwei Chen</strong>*, Ziyu Guo*, Renrui Zhang*, Zhuofan Zong, Hao Li, Le Zhuo, Shilin Yan, Pheng-Ann Heng, Hongsheng Li </div>
-                <div style="font-style: italic; color: #666; font-size: 14px;">NeurIPS 2025</div> <div class="pub-links"> <a href="#" class="pub-btn">PDF</a>
-                    <a href="#" class="pub-btn">Code</a>
-                    <a href="#" class="pub-btn">Project Page</a>
-                </div>
+                <div class="pub-item">
+                    <div class="pub-image">
+                        <img src="./imgs/mme-cof-teaser.png" alt="MME-CoF Benchmark">
+                    </div>
+                    <div class="pub-content">
+                        <div class="pub-title-row">
+                            <span class="badge tag-conf">ICCV 2023</span> <a href="#">Dynamic Residual Classifier for Class Incremental Learning</a> </div>
+                        <div class="pub-authors">
+                            Xiuwei Chen, Xiaobin Chang </div>
+                        <div style="font-style: italic; color: #666; font-size: 14px;">ICCV 2023</div> <div class="pub-links"> <a href="https://arxiv.org/abs/2308.13305" class="pub-btn">PDF</a>
+                            <a href="https://github.com/chen-xw/DRC-CIL" class="pub-btn">Code</a>
+                            <a href="https://github.com/chen-xw/DRC-CIL" class="pub-btn">Project Page</a>
+                    </div>  
+                </div>    
             </li>
-        </ul>
+            
 
 
         <div class="section-title">🔥 Educations</div> <ul class="custom-list">
