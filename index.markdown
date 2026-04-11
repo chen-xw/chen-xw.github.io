@@ -223,9 +223,9 @@ permalink: /
             HCP Lab, SYSU </div>
         <ul class="contact-info">
             <li><i class="fas fa-envelope"></i> <a href="mailto:chenxw83@mail2.sysu.edu.cn"></a>
-            <i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com/citations?user=313kmTAAAAAJ&hl=zh-CN"></a>
-            <i class="fab fa-github"></i> <a href="https://github.com/chen-xw"></a>
-            <i class="fab fa-linkedin"></i> <a href="#"></a></li>
+            <i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com/citations?user=313kmTAAAAAJ&hl=zh-CN"> </a>
+            <i class="fab fa-github"></i> <a href="https://github.com/chen-xw"> </a>
+            <i class="fab fa-linkedin"></i> <a href="#"></a> </li>
         </ul>
     </div>
 
