@@ -147,11 +147,11 @@ permalink: /
         </div>
         <div class="author-name">Xiuwei Chen</div>
         <div class="author-title">
-            Ph.D. Candidate<br>
+            Ph.D. Student<br>
             HCP Lab, SYSU </div>
         <ul class="contact-info">
             <li><i class="fas fa-envelope"></i> <a href="mailto:chenxw83@mail2.sysu.edu.cn"></a>
-            <i class="fas fa-graduation-cap"></i> <a href="#"></a>
+            <i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com/citations?user=313kmTAAAAAJ&hl=zh-CN"></a>
             <i class="fab fa-github"></i> <a href="https://github.com/chen-xw"></a>
             <i class="fab fa-linkedin"></i> <a href="#"></a></li>
         </ul>
@@ -160,16 +160,19 @@ permalink: /
     <div class="academic-main">
         
         <div class="section-title">About Me</div> <p>
-            I am currently a Ph.D candidate at <a href="https://www.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>. My research interests focus on <strong>Multimodal Reasoning</strong>, including Understanding and Self-Improvement.
+             I am currently a Ph.D candidate in HCP Group at <a href="https://sai.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN">Prof. Prof. Xiaodan Liang</a>. I received my Master's degree at the <a href="https://www.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://xb-chang.github.io/">Prof. Xiaobin Chang</a>. Prior to SYSU, I obtained a B.Eng from <a href="https://www.tyut.edu.cn/">TYUT</a> and majored in Computer Science and Technology (CS) in 2021.
         </p>
         <p>
-            I will be entering the job market in 2027. Please feel free to reach out if you have opportunities!
+            My research interests focus on <strong>Multimodal Reasoning</strong>, including the <strong>Understanding</strong> and <strong>Self-Improvement</strong>. Priored that, my focus on <strong>Person Re-identification</strong> and <strong>Incremental Learning</strong>.
         </p>
 
         <div class="section-title">🔥 News</div> <ul class="custom-list">
-            <li><span class="date-text">2025.10:</span> 🔥 Release Are Video Models Ready as Zero-Shot Reasoners?</li>
-            <li><span class="date-text">2025.09:</span> 🎉 Three papers are accepted by NeurIPS 2025.</li>
-            <li><span class="date-text">2024.09:</span> I have passed Ph.D. Qualifying Examination.</li>
+            <li><span class="date-text"><strong>[2025.10]</strong></span> 🔥 We release EVA, </li>
+            <li><span class="date-text"><strong>[2025.10]</strong></span> 🔥 We release C2-Evo, </li>
+            <li><span class="date-text"><strong>[2025.09]</strong></span> 🔥 We release TransMamba, an.</li>
+            <li><span class="date-text"><strong>[2023.10]</strong></span> 🎉 One paper is accepted by PRCV 2023.</li>
+            <li><span class="date-text"><strong>[2023.07]</strong></span> 🎉 One paper (DRC) is accepted by ICCV 2023.</li>
+            <li><span class="date-text"><strong>[2021.01]</strong></span> Welcome to my new homepage!</li>
         </ul>
 
         <div class="section-title">🛠️ Projects</div> <ul class="custom-list">
