@@ -5,34 +5,40 @@ permalink: /
 ---
 
 <style type="text/css">
-    /* 核心页面布局 */
+    /* 核心学术页面布局 */
     .academic-page {
         font-family: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         color: #333;
         line-height: 1.6;
         display: flex;
         flex-wrap: wrap;
-        max-width: 1050px;
+        max-width: 1050px; /* 增加了整体容器的最大宽度，让它变宽 */
         margin: 0 auto;
         padding: 20px 10px;
     }
     
-    /* 左侧边栏 */
+    /* 左侧边栏 (个人资料部分) */
     .academic-sidebar {
-        width: 260px;
+        width: 260px; /* 设定一个较宽的左侧导航栏 */
         padding-right: 40px;
         margin-bottom: 30px;
     }
-    .hp-photo {
-        width: 200px;
-        height: 200px;
+    .hp-photo-container {
+        width: 220px;
+        height: 220px;
         border-radius: 50%;
-        object-fit: cover;
-        margin-bottom: 15px;
+        overflow: hidden;
+        margin: 0 auto 15px auto;
+        border: 2px solid #eaeaea; /* 添加一个边框 */
         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
-    .author-name { font-size: 26px; font-weight: 700; color: #222; margin-bottom: 5px; }
-    .author-title { font-size: 14.5px; color: #555; margin-bottom: 20px; line-height: 1.4; }
+    .hp-photo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .author-name { font-size: 26px; font-weight: 700; text-align: center; color: #222; margin-bottom: 5px; }
+    .author-title { font-size: 14.5px; text-align: center; color: #555; margin-bottom: 20px; line-height: 1.4; }
     
     .contact-info { list-style: none; padding: 0; margin: 0; }
     .contact-info li { margin-bottom: 12px; font-size: 14.5px; display: flex; align-items: center; }
@@ -42,14 +48,14 @@ permalink: /
 
     /* 右侧主内容区 */
     .academic-main {
-        flex: 1;
+        flex: 1; /* 主内容区占据剩余宽度 */
         min-width: 0;
     }
     .academic-main p { font-size: 15px; margin-bottom: 15px; text-align: justify; }
     .academic-main a { color: #1772d0; text-decoration: none; }
     .academic-main a:hover { text-decoration: underline; }
     
-    /* 章节标题 */
+    /* 章节标题样式 */
     .section-title {
         font-size: 24px;
         font-weight: bold;
@@ -63,13 +69,13 @@ permalink: /
     }
     .section-title i { margin-right: 10px; font-size: 22px; }
 
-    /* 列表样式 (News & Projects) */
+    /* News & Projects 列表样式 */
     ul.custom-list { list-style-type: none; padding-left: 0; margin-top: 0; }
     ul.custom-list li { margin-bottom: 12px; position: relative; padding-left: 18px; font-size: 14.5px; }
     ul.custom-list li::before { content: "•"; position: absolute; left: 0; color: #666; font-size: 18px; line-height: 1.4; }
     .date-text { font-style: italic; color: #555; margin-right: 5px; }
 
-    /* 论文列表样式 */
+    /* Publications 列表样式 */
     .pub-category { font-size: 18px; font-weight: bold; margin-top: 25px; margin-bottom: 15px; color: #333; }
     ul.pub-list { list-style: none; padding: 0; margin: 0; }
     ul.pub-list li { margin-bottom: 20px; font-size: 14.5px; }
@@ -78,7 +84,7 @@ permalink: /
     .pub-authors { color: #444; }
     .pub-authors strong { color: #111; font-weight: 700; }
 
-    /* 漂亮的彩色标签 (Badges) */
+    /* 彩色标签 Badges，颜色取自你截图中的风格 */
     .badge {
         display: inline-block;
         padding: 3px 8px;
@@ -90,11 +96,11 @@ permalink: /
         vertical-align: text-bottom;
         line-height: 1;
     }
-    .tag-arxiv { background-color: #f59e0b; } /* 橙色 */
+    .tag-arxiv { background-color: #f59e0b; } /* 橙黄 */
     .tag-conf { background-color: #8b5cf6; }  /* 紫色 */
     .tag-blog { background-color: #10b981; }  /* 绿色 */
 
-    /* 手机端自适应响应式 */
+    /* 手机自适应响应式，防止变窄时错乱 */
     @media (max-width: 768px) {
         .academic-page { flex-direction: column; }
         .academic-sidebar { width: 100%; padding-right: 0; text-align: center; margin-bottom: 20px; }
@@ -103,11 +109,14 @@ permalink: /
 </style>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 
 <div class="academic-page">
 
     <div class="academic-sidebar">
-        <img class="hp-photo" src="./imgs/photo.jpg" alt="Xiuwei Chen">
+        <div class="hp-photo-container">
+            <img class="hp-photo" src="./imgs/photo.jpg" alt="Xiuwei Chen">
+        </div>
         <div class="author-name">Xiuwei Chen</div>
         <div class="author-title">
             Ph.D. Candidate<br>
@@ -115,10 +124,10 @@ permalink: /
         </div>
         <ul class="contact-info">
             <li><i class="fas fa-map-marker-alt"></i> Guangzhou, China</li>
-            <li><i class="fas fa-envelope"></i> <a href="mailto:chenxw83@mail2.sysu.edu.cn">Email</a></li>
-            <li><i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com/">Google Scholar</a></li>
-            <li><i class="fab fa-github"></i> <a href="https://github.com/chen-xw">Github</a></li>
-            <li><i class="fas fa-file-pdf"></i> <a href="misc/CV_XiuweiChen.pdf">CV</a></li>
+            <li><i class="fas fa-envelope"></i> Email</li>
+            <li><i class="fas fa-graduation-cap"></i> Google Scholar</li>
+            <li><i class="fab fa-github"></i> Github</li>
+            <li><i class="fas fa-file-pdf"></i> CV</li>
         </ul>
     </div>
 
@@ -128,7 +137,7 @@ permalink: /
             I am currently a Ph.D candidate in HCP Group at <a href="https://sai.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN">Prof. Xiaodan Liang</a>. I received my Master's degree at the <a href="https://www.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://xb-chang.github.io/">Prof. Xiaobin Chang</a>. Prior to SYSU, I obtained a B.Eng from <a href="https://www.tyut.edu.cn/">TYUT</a> and majored in Computer Science and Technology (CS) in 2021.
         </p>
         <p>
-            My research interests focus on <strong>Multimodal Reasoning</strong>, including Understanding and Self-Improvement. Prior to that, my focus was on <strong>Person Re-identification</strong> and <strong>Incremental Learning</strong>.
+            My research interests focus on <strong>Multimodal Reasoning</strong>, including the <strong>Understanding</strong> and <strong>Self-Improvement</strong>. Prior that, my focus was on <strong>Person Re-identification</strong> and <strong>Incremental Learning</strong>.
         </p>
         <p>
             I will be entering the job market in 2027. Please feel free to reach out if you have opportunities!
