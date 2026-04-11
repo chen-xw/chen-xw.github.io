@@ -117,24 +117,44 @@ permalink: /
     }
     
     /* 论文图片区域 */
+        /* 1. 修改图片容器，增加 relative 定位 */
     .pub-image {
         flex-shrink: 0;
         width: 280px;
+        height: 160px; /* 新增：固定高度，防止图片太矮 */
         border-radius: 8px;
         overflow: hidden;
         box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         background: #f5f5f5;
+        position: relative; /* 新增：为了让里面的标签能定位 */
     }
     
+    /* 2. 修改图片本身，让它充满容器 */
     .pub-image img {
         width: 100%;
-        height: auto;
+        height: 100%; /* 新增：高度占满 */
+        object-fit: cover; /* 新增：关键属性！裁剪图片以充满容器，不留白边 */
         display: block;
         transition: transform 0.3s ease;
     }
     
     .pub-image:hover img {
         transform: scale(1.02);
+    }
+
+    /* 3. 新增：图片左上角标签的样式 (类似图3中的 arXiv 2026) */
+    .pub-img-badge {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: #1d4e89; /* 深蓝色背景 */
+        color: white;
+        padding: 3px 8px;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 4px;
+        z-index: 10; /* 保证在图片上层 */
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     }
     
     /* 论文内容区域 */
@@ -225,81 +245,107 @@ permalink: /
         <div class="section-title">📝 Publications and Preprints</div>
         <ul class="pub-list">
 
-
-
+            <!-- 论文 1 示例 -->
             <li>
                 <div class="pub-item">
                     <div class="pub-image">
+                        <!-- 在这里添加标签，文字可以改成 arXiv 2025 等 -->
+                        <span class="pub-img-badge">arXiv 2025</span> 
                         <img src="./image/eva.png" alt="MME-CoF Benchmark">
                     </div>
                     <div class="pub-content">
                         <div class="pub-title-row">
-                            <span class="badge tag-arxiv">Arxiv</span> <a href="#">Latent Visual States for Efficient Multimodal Reasoning</a> </div>
+                            <span class="badge tag-arxiv">Arxiv</span> <a href="#">Latent Visual States for Efficient Multimodal Reasoning</a> 
+                        </div>
                         <div class="pub-authors">
-                            Xiuwei Chen, Wentao Hu, Xiao Dong, Sihao Lin, Zisheng Chen, Meng Cao, Yina Zhuang, Jianhua Han, Hang Xu, Xiaodan Liang</div>
-                        <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> <div class="pub-links"> <a href="https://arxiv.org/abs/2502.15130" class="pub-btn">PDF</a>
+                            Xiuwei Chen, Wentao Hu, Xiao Dong, Sihao Lin, Zisheng Chen, Meng Cao, Yina Zhuang, Jianhua Han, Hang Xu, Xiaodan Liang
+                        </div>
+                        <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> 
+                        <div class="pub-links"> 
+                            <a href="https://arxiv.org/abs/2502.15130" class="pub-btn">PDF</a>
                             <a href="https://github.com/chen-xw/TransMamba-main" class="pub-btn">Code</a>
                             <a href="https://github.com/chen-xw/TransMamba-main" class="pub-btn">Project Page</a>
-                    </div>  
-                </div>    
+                        </div>  
+                    </div>    
                 </div>   
             </li>
-
-
+            
+            <!-- 论文 2 示例 (记得改标签文字) -->
             <li>
                 <div class="pub-item">
                     <div class="pub-image">
+                        <span class="pub-img-badge">arXiv 2025</span>
                         <img src="./image/c2evo.png" alt="MME-CoF Benchmark">
                     </div>
                     <div class="pub-content">
-                        <div class="pub-title-row">
-                            <span class="badge tag-arxiv">Arxiv</span> <a href="#">C2-Evo: Co-Evolving Multimodal Data and Model for Self-Improving Reasoning</a> </div>
+                        <!-- ... 内容保持不变 ... -->
+                         <div class="pub-title-row">
+                            <span class="badge tag-arxiv">Arxiv</span> <a href="#">C2-Evo: Co-Evolving Multimodal Data and Model for Self-Improving Reasoning</a> 
+                        </div>
                         <div class="pub-authors">
-                            Xiuwei Chen, Wentao Hu, Hanhui Li, Jun Zhou, Zisheng Chen, Meng Cao, Yihan Zeng, Kui Zhang, Yu-Jie Yuan, Jianhua Han, Hang Xu, Xiaodan Liang</div>
-                        <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> <div class="pub-links"> <a href="https://arxiv.org/abs/2507.16518" class="pub-btn">PDF</a>
+                            Xiuwei Chen, Wentao Hu, Hanhui Li, Jun Zhou, Zisheng Chen, Meng Cao, Yihan Zeng, Kui Zhang, Yu-Jie Yuan, Jianhua Han, Hang Xu, Xiaodan Liang
+                        </div>
+                        <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> 
+                        <div class="pub-links"> 
+                            <a href="https://arxiv.org/abs/2507.16518" class="pub-btn">PDF</a>
                             <a href="https://github.com/chen-xw/C2-Evo" class="pub-btn">Code</a>
                             <a href="https://c2-evo.github.io/" class="pub-btn">Project Page</a>
-                    </div>  
-                </div>    
+                        </div>  
+                    </div>    
+                </div>   
+            </li>
+            
+            <!-- 论文 3 示例 -->
+            <li>
+                <div class="pub-item">
+                    <div class="pub-image">
+                        <span class="pub-img-badge">arXiv 2025</span>
+                        <img src="./image/transmamba.png" alt="MME-CoF Benchmark">
+                    </div>
+                    <div class="pub-content">
+                         <!-- ... 内容保持不变 ... -->
+                         <div class="pub-title-row">
+                            <span class="badge tag-arxiv">Arxiv</span> <a href="#">TransMamba: Fast Universal Architecture Adaption from Transformers to Mamba</a> 
+                        </div>
+                        <div class="pub-authors">
+                            Xiuwei Chen, Wentao Hu, Xiao Dong, Sihao Lin, Zisheng Chen, Meng Cao, Yina Zhuang, Jianhua Han, Hang Xu, Xiaodan Liang
+                        </div>
+                        <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> 
+                        <div class="pub-links"> 
+                            <a href="https://arxiv.org/abs/2502.15130" class="pub-btn">PDF</a>
+                            <a href="https://github.com/chen-xw/TransMamba-main" class="pub-btn">Code</a>
+                            <a href="https://github.com/chen-xw/TransMamba-main" class="pub-btn">Project Page</a>
+                        </div>  
+                    </div>    
+                </div>   
+            </li>
+            
+            <!-- 论文 4 示例 -->
+            <li>
+                <div class="pub-item">
+                    <div class="pub-image">
+                        <span class="pub-img-badge">ICCV 2023</span>
+                        <img src="./image/drc.png" alt="MME-CoF Benchmark">
+                    </div>
+                    <div class="pub-content">
+                        <!-- ... 内容保持不变 ... -->
+                        <div class="pub-title-row">
+                            <span class="badge tag-conf">ICCV 2023</span> <a href="#">Dynamic Residual Classifier for Class Incremental Learning</a> 
+                        </div>
+                        <div class="pub-authors">
+                            Xiuwei Chen, Xiaobin Chang 
+                        </div>
+                        <div style="font-style: italic; color: #666; font-size: 14px;">ICCV 2023</div> 
+                        <div class="pub-links"> 
+                            <a href="https://arxiv.org/abs/2308.13305" class="pub-btn">PDF</a>
+                            <a href="https://github.com/chen-xw/DRC-CIL" class="pub-btn">Code</a>
+                            <a href="https://github.com/chen-xw/DRC-CIL" class="pub-btn">Project Page</a>
+                        </div>  
+                    </div>    
                 </div>   
             </li>
 
             
-            <li>
-                <div class="pub-item">
-                    <div class="pub-image">
-                        <img src="./image/transmamba.png" alt="MME-CoF Benchmark">
-                    </div>
-                    <div class="pub-content">
-                        <div class="pub-title-row">
-                            <span class="badge tag-arxiv">Arxiv</span> <a href="#">TransMamba: Fast Universal Architecture Adaption from Transformers to Mamba</a> </div>
-                        <div class="pub-authors">
-                            Xiuwei Chen, Wentao Hu, Xiao Dong, Sihao Lin, Zisheng Chen, Meng Cao, Yina Zhuang, Jianhua Han, Hang Xu, Xiaodan Liang</div>
-                        <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> <div class="pub-links"> <a href="https://arxiv.org/abs/2502.15130" class="pub-btn">PDF</a>
-                            <a href="https://github.com/chen-xw/TransMamba-main" class="pub-btn">Code</a>
-                            <a href="https://github.com/chen-xw/TransMamba-main" class="pub-btn">Project Page</a>
-                    </div>  
-                </div>    
-                </div>   
-            </li>
-
-        <li>
-                <div class="pub-item">
-                    <div class="pub-image">
-                        <img src="./image/drc.png" alt="MME-CoF Benchmark">
-                    </div>
-                    <div class="pub-content">
-                        <div class="pub-title-row">
-                            <span class="badge tag-conf">ICCV 2023</span> <a href="#">Dynamic Residual Classifier for Class Incremental Learning</a> </div>
-                        <div class="pub-authors">
-                            Xiuwei Chen, Xiaobin Chang </div>
-                        <div style="font-style: italic; color: #666; font-size: 14px;">ICCV 2023</div> <div class="pub-links"> <a href="https://arxiv.org/abs/2308.13305" class="pub-btn">PDF</a>
-                            <a href="https://github.com/chen-xw/DRC-CIL" class="pub-btn">Code</a>
-                            <a href="https://github.com/chen-xw/DRC-CIL" class="pub-btn">Project Page</a>
-                    </div>  
-                </div>    
-                </div>   
-            </li>
             
         </ul>
 
