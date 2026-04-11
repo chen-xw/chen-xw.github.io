@@ -133,12 +133,11 @@ permalink: /
         <div class="author-name">Xiuwei Chen</div>
         <div class="author-title">
             Ph.D. Candidate<br>
-            MMLab, CUHK </div>
+            HCP Lab, SYSU </div>
         <ul class="contact-info">
             <li><i class="fas fa-envelope"></i> <a href="mailto:chenxw83@mail2.sysu.edu.cn">Email</a></li>
-            <li><i class="fas fa-graduation-cap"></i> <a href="#">Google Scholar</a></li>
-            <li><i class="fab fa-github"></i> <a href="#">Github</a></li>
-            <li><i class="fab fa-linkedin"></i> <a href="#">LinkedIn</a></li>
+            <li><i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com/citations?user=313kmTAAAAAJ&hl=zh-CN">Google Scholar</a></li>
+            <li><i class="fab fa-github"></i> <a href="https://github.com/chen-xw">Github</a></li>
         </ul>
     </div>
 
