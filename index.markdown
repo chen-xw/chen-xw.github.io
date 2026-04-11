@@ -224,6 +224,45 @@ permalink: /
 
         <div class="section-title">📝 Publications and Preprints</div>
         <ul class="pub-list">
+
+
+
+            <li>
+                <div class="pub-item">
+                    <div class="pub-image">
+                        <img src="./imgs/mme-cof-teaser.png" alt="MME-CoF Benchmark">
+                    </div>
+                    <div class="pub-content">
+                        <div class="pub-title-row">
+                            <span class="badge tag-arxiv">Arxiv</span> <a href="#">Latent Visual States for Efficient Multimodal Reasoning</a> </div>
+                        <div class="pub-authors">
+                            Xiuwei Chen, Wentao Hu, Xiao Dong, Sihao Lin, Zisheng Chen, Meng Cao, Yina Zhuang, Jianhua Han, Hang Xu, Xiaodan Liang</div>
+                        <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> <div class="pub-links"> <a href="https://arxiv.org/abs/2502.15130" class="pub-btn">PDF</a>
+                            <a href="https://github.com/chen-xw/TransMamba-main" class="pub-btn">Code</a>
+                            <a href="https://github.com/chen-xw/TransMamba-main" class="pub-btn">Project Page</a>
+                    </div>  
+                </div>    
+            </li>
+
+
+            <li>
+                <div class="pub-item">
+                    <div class="pub-image">
+                        <img src="./imgs/mme-cof-teaser.png" alt="MME-CoF Benchmark">
+                    </div>
+                    <div class="pub-content">
+                        <div class="pub-title-row">
+                            <span class="badge tag-arxiv">Arxiv</span> <a href="#">C2-Evo: Co-Evolving Multimodal Data and Model for Self-Improving Reasoning</a> </div>
+                        <div class="pub-authors">
+                            Xiuwei Chen, Wentao Hu, Hanhui Li, Jun Zhou, Zisheng Chen, Meng Cao, Yihan Zeng, Kui Zhang, Yu-Jie Yuan, Jianhua Han, Hang Xu, Xiaodan Liang</div>
+                        <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> <div class="pub-links"> <a href="https://arxiv.org/abs/2507.16518" class="pub-btn">PDF</a>
+                            <a href="https://github.com/chen-xw/C2-Evo" class="pub-btn">Code</a>
+                            <a href="https://c2-evo.github.io/" class="pub-btn">Project Page</a>
+                    </div>  
+                </div>    
+            </li>
+
+            
             <li>
                 <div class="pub-item">
                     <div class="pub-image">
@@ -258,6 +297,7 @@ permalink: /
                 </div>    
             </li>
             
+        </ul>
 
 
         <div class="section-title">🔥 Educations</div> <ul class="custom-list">
