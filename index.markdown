@@ -149,10 +149,10 @@ permalink: /
             Ph.D. Candidate<br>
             HCP Lab, SYSU </div>
         <ul class="contact-info">
-            <li><i class="fas fa-envelope"></i> <a href="mailto:chenxw83@mail2.sysu.edu.cn"></a></li>
-            <li><i class="fas fa-graduation-cap"></i> <a href="#"></a></li>
-            <li><i class="fab fa-github"></i> <a href="https://github.com/chen-xw"></a></li>
-            <li><i class="fab fa-linkedin"></i> <a href="#"></a></li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:chenxw83@mail2.sysu.edu.cn"></a>
+            <i class="fas fa-graduation-cap"></i> <a href="#"></a>
+            <i class="fab fa-github"></i> <a href="https://github.com/chen-xw"></a>
+            <i class="fab fa-linkedin"></i> <a href="#"></a></li>
         </ul>
     </div>
 
