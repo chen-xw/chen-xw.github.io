@@ -230,7 +230,7 @@ permalink: /
             <li>
                 <div class="pub-item">
                     <div class="pub-image">
-                        <img src="./imgs/mme-cof-teaser.png" alt="MME-CoF Benchmark">
+                        <img src="./image/eva.png" alt="MME-CoF Benchmark">
                     </div>
                     <div class="pub-content">
                         <div class="pub-title-row">
@@ -249,7 +249,7 @@ permalink: /
             <li>
                 <div class="pub-item">
                     <div class="pub-image">
-                        <img src="./imgs/mme-cof-teaser.png" alt="MME-CoF Benchmark">
+                        <img src="./image/c2evo.png" alt="MME-CoF Benchmark">
                     </div>
                     <div class="pub-content">
                         <div class="pub-title-row">
@@ -268,7 +268,7 @@ permalink: /
             <li>
                 <div class="pub-item">
                     <div class="pub-image">
-                        <img src="./imgs/mme-cof-teaser.png" alt="MME-CoF Benchmark">
+                        <img src="./image/transmamba.png" alt="MME-CoF Benchmark">
                     </div>
                     <div class="pub-content">
                         <div class="pub-title-row">
@@ -286,7 +286,7 @@ permalink: /
         <li>
                 <div class="pub-item">
                     <div class="pub-image">
-                        <img src="./imgs/mme-cof-teaser.png" alt="MME-CoF Benchmark">
+                        <img src="./image/drc.png" alt="MME-CoF Benchmark">
                     </div>
                     <div class="pub-content">
                         <div class="pub-title-row">
