@@ -161,6 +161,32 @@ permalink: /
         z-index: 10; /* 保证在图片上层 */
         box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     }
+    .contact-info li {
+        list-style: none;
+        display: flex;
+        gap: 16px; /* 图标间距 */
+        align-items: center;
+    }
+    
+    .contact-info a {
+        color: #555; /* 图标默认颜色 */
+        font-size: 1.2rem; /* 图标大小 */
+        transition: color 0.3s ease, transform 0.2s ease;
+        display: inline-flex;
+        padding: 6px; /* 扩大点击区域 */
+        border-radius: 4px;
+    }
+    
+    .contact-info a:hover {
+        color: #007bff; /* 悬停颜色，可按品牌色定制 */
+        transform: translateY(-2px); /* 轻微上浮效果 */
+    }
+    
+    /* 可选：不同平台悬停色 */
+    .contact-info a[href*="github.com"]:hover { color: #333; }
+    .contact-info a[href*="linkedin.com"]:hover { color: #0077b5; }
+    .contact-info a[href*="scholar.google.com"]:hover { color: #4285f4; }
+    .contact-info a[href^="mailto:"]:hover { color: #ea4335; }
     
     /* 论文内容区域 */
     .pub-content {
@@ -222,10 +248,20 @@ permalink: /
             Ph.D. Student<br>
             HCP Lab, SYSU </div>
         <ul class="contact-info">
-            <li><i class="fas fa-envelope"></i> <a href="mailto:chenxw83@mail2.sysu.edu.cn"></a>
-            <i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com/citations?user=313kmTAAAAAJ&hl=zh-CN"> </a>
-            <i class="fab fa-github"></i> <a href="https://github.com/chen-xw"> </a>
-            <i class="fab fa-linkedin"></i> <a href="#"></a> </li>
+            <li>
+                <a href="mailto:chenxw83@mail2.sysu.edu.cn" target="_blank" title="Email" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://scholar.google.com/citations?user=313kmTAAAAAJ&hl=zh-CN" target="_blank" title="Google Scholar" aria-label="Google Scholar">
+                    <i class="fas fa-graduation-cap"></i>
+                </a>
+                <a href="https://github.com/chen-xw" target="_blank" title="GitHub" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/your-profile" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
         </ul>
     </div>
 
