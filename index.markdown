@@ -231,13 +231,12 @@ permalink: /
                     </div>
                     <div class="pub-content">
                         <div class="pub-title-row">
-                            <span class="badge tag-arxiv">Arxiv</span> <a href="#">Are Video Models Ready as Zero-Shot Reasoners? An Empirical Study with the MME-CoF Benchmark</a> </div>
+                            <span class="badge tag-arxiv">Arxiv</span> <a href="#">TransMamba: Fast Universal Architecture Adaption from Transformers to Mamba</a> </div>
                         <div class="pub-authors">
-                            Ziyu Guo*, Xinyan Chen*, Renrui Zhang*, Ruichuan An*, Yu Qi*, <strong>Xiuwei Chen</strong>, Xiangtai Li, Manyuan Zhang, Hongsheng Li, Pheng-Ann Heng </div>
-                        <div style="font-style: italic; color: #666; font-size: 14px;">CVPR 2026 Findings</div> <div class="pub-links"> <a href="#" class="pub-btn">PDF</a>
-                            <a href="#" class="pub-btn">Code</a>
-                            <a href="#" class="pub-btn">Project Page</a>
-                            <a href="#" class="pub-btn">Benchmark</a></div>
+                            Xiuwei Chen, Wentao Hu, Xiao Dong, Sihao Lin, Zisheng Chen, Meng Cao, Yina Zhuang, Jianhua Han, Hang Xu, Xiaodan Liang</div>
+                        <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> <div class="pub-links"> <a href="https://arxiv.org/abs/2502.15130" class="pub-btn">PDF</a>
+                            <a href="https://github.com/chen-xw/TransMamba-main" class="pub-btn">Code</a>
+                            <a href="https://github.com/chen-xw/TransMamba-main" class="pub-btn">Project Page</a>
                     </div>  
                 </div>    
             </li>
