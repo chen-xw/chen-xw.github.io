@@ -229,16 +229,16 @@ permalink: /
                     <div class="pub-image">
                         <img src="./imgs/mme-cof-teaser.png" alt="MME-CoF Benchmark">
                     </div>
-                <div class="pub-content">
-                    <div class="pub-title-row">
-                        <span class="badge tag-arxiv">Arxiv</span> <a href="#">Are Video Models Ready as Zero-Shot Reasoners? An Empirical Study with the MME-CoF Benchmark</a> </div>
-                    <div class="pub-authors">
-                        Ziyu Guo*, Xinyan Chen*, Renrui Zhang*, Ruichuan An*, Yu Qi*, <strong>Xiuwei Chen</strong>, Xiangtai Li, Manyuan Zhang, Hongsheng Li, Pheng-Ann Heng </div>
-                    <div style="font-style: italic; color: #666; font-size: 14px;">CVPR 2026 Findings</div> <div class="pub-links"> <a href="#" class="pub-btn">PDF</a>
-                        <a href="#" class="pub-btn">Code</a>
-                        <a href="#" class="pub-btn">Project Page</a>
-                        <a href="#" class="pub-btn">Benchmark</a>
-                    </div>
+                    <div class="pub-content">
+                        <div class="pub-title-row">
+                            <span class="badge tag-arxiv">Arxiv</span> <a href="#">Are Video Models Ready as Zero-Shot Reasoners? An Empirical Study with the MME-CoF Benchmark</a> </div>
+                        <div class="pub-authors">
+                            Ziyu Guo*, Xinyan Chen*, Renrui Zhang*, Ruichuan An*, Yu Qi*, <strong>Xiuwei Chen</strong>, Xiangtai Li, Manyuan Zhang, Hongsheng Li, Pheng-Ann Heng </div>
+                        <div style="font-style: italic; color: #666; font-size: 14px;">CVPR 2026 Findings</div> <div class="pub-links"> <a href="#" class="pub-btn">PDF</a>
+                            <a href="#" class="pub-btn">Code</a>
+                            <a href="#" class="pub-btn">Project Page</a>
+                            <a href="#" class="pub-btn">Benchmark</a></div>
+                    </div>  
                 </div>    
             </li>
             
