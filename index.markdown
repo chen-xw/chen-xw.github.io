@@ -265,7 +265,7 @@ permalink: /
                         <div class="pub-authors">
                             Zisheng Chen, Chunwei Wang, Runhui Huang, Hongbin Xu, Xiuwei Chen, Jun Zhou, Jianhua Han, Hang Xu, Xiaodan Liang
                         </div>
-                        <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> 
+                        <div style="font-style: italic; color: #666; font-size: 14px;">ICLR 2026</div> 
                         <div class="pub-links"> 
                             <a href="https://arxiv.org/abs/2503.06764" class="pub-btn">PDF</a>
                         </div>  
