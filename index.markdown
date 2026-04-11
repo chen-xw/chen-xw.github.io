@@ -7,7 +7,8 @@ permalink: /
 <style type="text/css">
     /* 核心页面布局 */
     .academic-page {
-        font-family: 'serif', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        /*font-family: 'serif', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;*/
+        font-family: 'Georgia', 'Times New Roman', 'SimSun', 'Noto Serif SC', serif;
         color: #333;
         line-height: 1.6;
         display: flex;
