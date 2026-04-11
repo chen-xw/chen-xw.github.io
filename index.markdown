@@ -238,7 +238,6 @@ permalink: /
             My research interests focus on <strong>Multimodal Reasoning</strong>, including the <strong>Understanding</strong> and <strong>Self-Improvement</strong>. Priored that, my focus on Person Re-identification and Incremental Learning.
         </p>
 
-        /* <div class="section-title">🔥 News</div> <ul class="custom-list"> */
         <div class="section-title">🔥 News</div> <ul class="custom-list news-list">
             <li><span class="date-text"><strong>[2025.10]</strong></span> 🎉 One paper (SemHiTok) is accepted by ICLR 2026.</li>
             <li><span class="date-text"><strong>[2025.10]</strong></span> 🔥 We release EVA, a framework that internalizes explicit tool calling into the model's intrinsic capabilities.</li>
@@ -261,7 +260,7 @@ permalink: /
                     </div>
                     <div class="pub-content">
                         <div class="pub-title-row">
-                            <span class="badge tag-arxiv">Arxiv</span> <a href="https://arxiv.org/abs/2503.06764">SemHiTok: A Unified Image Tokenizer via Semantic-Guided Hierarchical Codebook for Multimodal Understanding and Generation</a> 
+                            <span class="badge tag-conf">ICLR 2026</span> <a href="https://arxiv.org/abs/2503.06764">SemHiTok: A Unified Image Tokenizer via Semantic-Guided Hierarchical Codebook for Multimodal Understanding and Generation</a> 
                         </div>
                         <div class="pub-authors">
                             Zisheng Chen, Chunwei Wang, Runhui Huang, Hongbin Xu, Xiuwei Chen, Jun Zhou, Jianhua Han, Hang Xu, Xiaodan Liang
