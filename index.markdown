@@ -382,6 +382,12 @@ permalink: /
             <li><span class="date-text">2017.09 - 2021.06,</span>  Bachelor of CS, The Taiyuan University of Technology (TYUT) </li>
         </ul>
 
+        <div class="section-title">💼  Experiences</div> <ul class="custom-list">
+            <li><span class="date-text">2025.08 - now,</span>  Research Intern, YinWang 2030 Lab</li>
+            <li><span class="date-text">2024.07 - 2025.07,</span>  Research Intern, Huawei Noah's Ark Lab </li>
+            <li><span class="date-text">2023.06 - 2023.08,</span>  Algorithm Intern, Hikvision Research Institute </li>
+        </ul>
+
 
         <p align="center" style="font-size: 13px; color: #999; margin-top: 60px; border-top: 1px solid #eaeaea; padding-top: 15px;">
             &copy; 2026 Xiuwei Chen. Last update: 2024.05.
