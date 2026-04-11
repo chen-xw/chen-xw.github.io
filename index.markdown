@@ -426,7 +426,7 @@ permalink: /
 
 
         <p align="center" style="font-size: 13px; color: #999; margin-top: 60px; border-top: 1px solid #eaeaea; padding-top: 15px;">
-            &copy; 2026 Xiuwei Chen. Last update: 2024.05.
+            &copy; 2026 Xiuwei Chen. Last update: 2026.02.
         </p>
 
     </div>
