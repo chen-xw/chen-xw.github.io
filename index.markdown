@@ -108,6 +108,53 @@ permalink: /
     .pub-title-row a { font-weight: bold; color: #1d4e89; font-size: 16px; } /* 任务 3.2: 标题链接是深蓝色 */
     .pub-authors { color: #444; margin-bottom: 5px; } /* 普通作者颜色 */
     .pub-authors strong { color: #111; font-weight: 700; } /* 确保用户名字加粗 */
+    /* 论文列表项布局 */
+    .pub-item {
+        display: flex;
+        gap: 25px;
+        margin-bottom: 35px;
+        align-items: flex-start;
+    }
+    
+    /* 论文图片区域 */
+    .pub-image {
+        flex-shrink: 0;
+        width: 280px;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        background: #f5f5f5;
+    }
+    
+    .pub-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+    
+    .pub-image:hover img {
+        transform: scale(1.02);
+    }
+    
+    /* 论文内容区域 */
+    .pub-content {
+        flex: 1;
+        min-width: 0;
+    }
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .pub-item {
+        flex-direction: column;
+    }
+    
+    .pub-image {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
     
     /* 仿照图中的底部按钮 (PDF / Code / Dataset 等) */
     .pub-links { display: flex; gap: 8px; margin-top: 8px; }
