@@ -34,10 +34,10 @@ title: 主页
             <td width="68%" valign="middle">
                 <name>Xiuwei Chen (陈修伟)</name>
                 <p>
-                    I am currently a Master's student at the <a href="https://sai.sysu.edu.cn/">School of Artificial Intelligence</a>, <a href="https://www.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://xb-chang.github.io/">Prof. Xiaobin Chang</a>. I am originally from Rizhao, Shandong.
+                    I am currently a Ph.D candidate in HCP Group at <a href="https://sai.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN">Prof. Prof. Xiaodan Liang</a>. I received my Master's degree at the <a href="https://www.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://xb-chang.github.io/">Prof. Xiaobin Chang</a>. Prior to SYSU, I obtained a B.Eng from <a href="https://www.tyut.edu.cn/">TYUT</a> and majored in Computer Science and Technology (CS) in 2021.
                 </p>
                 <p>
-                    My research interests mainly focus on Computer Vision and Deep Learning, with a particular emphasis on <strong>Person Re-identification</strong> and <strong>Incremental Learning</strong>.
+                    My research interests focus on <strong>Multimodal Reasoning</strong>, including the <strong>Understanding</strong> and <strong>Self-Improvement</strong>. Priored that, my focus on <strong>Person Re-identification</strong> and <strong>Incremental Learning</strong>.
                 </p>
                 <p>
                     <a href="mailto:chenxw83@mail2.sysu.edu.cn"><i class="fas fa-envelope"></i> Email</a> &nbsp;/&nbsp;
