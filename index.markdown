@@ -255,7 +255,7 @@ permalink: /
                     </div>
                     <div class="pub-content">
                         <div class="pub-title-row">
-                            <span class="badge tag-arxiv">Arxiv</span> <a href="#">Latent Visual States for Efficient Multimodal Reasoning</a> 
+                            <span class="badge tag-arxiv">Arxiv</span> <a href="https://arxiv.org/abs/2502.15130">Latent Visual States for Efficient Multimodal Reasoning</a> 
                         </div>
                         <div class="pub-authors">
                             Xiuwei Chen, Wentao Hu, Xiao Dong, Sihao Lin, Zisheng Chen, Meng Cao, Yina Zhuang, Jianhua Han, Hang Xu, Xiaodan Liang
@@ -280,7 +280,7 @@ permalink: /
                     <div class="pub-content">
                         <!-- ... 内容保持不变 ... -->
                          <div class="pub-title-row">
-                            <span class="badge tag-arxiv">Arxiv</span> <a href="#">C2-Evo: Co-Evolving Multimodal Data and Model for Self-Improving Reasoning</a> 
+                            <span class="badge tag-arxiv">Arxiv</span> <a href="https://c2-evo.github.io/">C2-Evo: Co-Evolving Multimodal Data and Model for Self-Improving Reasoning</a> 
                         </div>
                         <div class="pub-authors">
                             Xiuwei Chen, Wentao Hu, Hanhui Li, Jun Zhou, Zisheng Chen, Meng Cao, Yihan Zeng, Kui Zhang, Yu-Jie Yuan, Jianhua Han, Hang Xu, Xiaodan Liang
@@ -305,7 +305,7 @@ permalink: /
                     <div class="pub-content">
                          <!-- ... 内容保持不变 ... -->
                          <div class="pub-title-row">
-                            <span class="badge tag-arxiv">Arxiv</span> <a href="#">TransMamba: Fast Universal Architecture Adaption from Transformers to Mamba</a> 
+                            <span class="badge tag-arxiv">Arxiv</span> <a href="https://arxiv.org/abs/2502.15130">TransMamba: Fast Universal Architecture Adaption from Transformers to Mamba</a> 
                         </div>
                         <div class="pub-authors">
                             Xiuwei Chen, Wentao Hu, Xiao Dong, Sihao Lin, Zisheng Chen, Meng Cao, Yina Zhuang, Jianhua Han, Hang Xu, Xiaodan Liang
@@ -330,7 +330,7 @@ permalink: /
                     <div class="pub-content">
                         <!-- ... 内容保持不变 ... -->
                         <div class="pub-title-row">
-                            <span class="badge tag-conf">ICCV 2023</span> <a href="#">Dynamic Residual Classifier for Class Incremental Learning</a> 
+                            <span class="badge tag-conf">ICCV 2023</span> <a href="https://arxiv.org/abs/2308.13305">Dynamic Residual Classifier for Class Incremental Learning</a> 
                         </div>
                         <div class="pub-authors">
                             Xiuwei Chen, Xiaobin Chang 
