@@ -178,15 +178,21 @@ permalink: /
         <div class="section-title">📝 Publications and Preprints</div>
         <ul class="pub-list">
             <li>
-                <div class="pub-title-row">
-                    <span class="badge tag-arxiv">Arxiv</span> <a href="#">Are Video Models Ready as Zero-Shot Reasoners? An Empirical Study with the MME-CoF Benchmark</a> </div>
-                <div class="pub-authors">
-                    Ziyu Guo*, Xinyan Chen*, Renrui Zhang*, Ruichuan An*, Yu Qi*, <strong>Xiuwei Chen</strong>, Xiangtai Li, Manyuan Zhang, Hongsheng Li, Pheng-Ann Heng </div>
-                <div style="font-style: italic; color: #666; font-size: 14px;">CVPR 2026 Findings</div> <div class="pub-links"> <a href="#" class="pub-btn">PDF</a>
-                    <a href="#" class="pub-btn">Code</a>
-                    <a href="#" class="pub-btn">Project Page</a>
-                    <a href="#" class="pub-btn">Benchmark</a>
-                </div>
+                <div class="pub-item">
+                    <div class="pub-image">
+                        <img src="./imgs/mme-cof-teaser.png" alt="MME-CoF Benchmark">
+                    </div>
+                <div class="pub-content">
+                    <div class="pub-title-row">
+                        <span class="badge tag-arxiv">Arxiv</span> <a href="#">Are Video Models Ready as Zero-Shot Reasoners? An Empirical Study with the MME-CoF Benchmark</a> </div>
+                    <div class="pub-authors">
+                        Ziyu Guo*, Xinyan Chen*, Renrui Zhang*, Ruichuan An*, Yu Qi*, <strong>Xiuwei Chen</strong>, Xiangtai Li, Manyuan Zhang, Hongsheng Li, Pheng-Ann Heng </div>
+                    <div style="font-style: italic; color: #666; font-size: 14px;">CVPR 2026 Findings</div> <div class="pub-links"> <a href="#" class="pub-btn">PDF</a>
+                        <a href="#" class="pub-btn">Code</a>
+                        <a href="#" class="pub-btn">Project Page</a>
+                        <a href="#" class="pub-btn">Benchmark</a>
+                    </div>
+                </div>    
             </li>
             
             <li>
@@ -201,20 +207,16 @@ permalink: /
             </li>
         </ul>
 
-        <div class="pub-category">o1/R1-like CoT Reasoning for Understanding</div>
-        <ul class="pub-list">
-            <li>
-                <div class="pub-title-row">
-                    <span class="badge tag-conf">ECCV 2024</span> <a href="#">MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems?</a> </div>
-                <div class="pub-authors">
-                    Renrui Zhang*, <strong>Xiuwei Chen</strong>*, Yichi Zhang*, Haokun Lin, Ziyu Guo, Pengshuo Qiu, Aojun Zhou, Pan Lu, Aojun Zhou, Kai-Wei Chang, Peng Gao, Hongsheng Li </div>
-                <div style="font-style: italic; color: #666; font-size: 14px;">ECCV 2024</div> <div class="pub-links"> <a href="#" class="pub-btn">PDF</a>
-                    <a href="#" class="pub-btn">Code</a>
-                    <a href="#" class="pub-btn">Project Page</a>
-                    <a href="#" class="pub-btn">Dataset</a>
-                </div>
-            </li>
+
+        <div class="section-title">🔥 Educations</div> <ul class="custom-list">
+            <li><span class="date-text"><strong>[2025.10]</strong></span> 🔥 We release EVA, </li>
+            <li><span class="date-text"><strong>[2025.10]</strong></span> 🔥 We release C2-Evo, </li>
+            <li><span class="date-text"><strong>[2025.09]</strong></span> 🔥 We release TransMamba, an.</li>
+            <li><span class="date-text"><strong>[2023.10]</strong></span> 🎉 One paper is accepted by PRCV 2023.</li>
+            <li><span class="date-text"><strong>[2023.07]</strong></span> 🎉 One paper (DRC) is accepted by ICCV 2023.</li>
+            <li><span class="date-text"><strong>[2021.01]</strong></span> Welcome to my new homepage!</li>
         </ul>
+
 
         <p align="center" style="font-size: 13px; color: #999; margin-top: 60px; border-top: 1px solid #eaeaea; padding-top: 15px;">
             &copy; 2026 Xiuwei Chen. Last update: 2024.05.
