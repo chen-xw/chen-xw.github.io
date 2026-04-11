@@ -234,9 +234,9 @@ permalink: /
         </p>
 
         <div class="section-title">🔥 News</div> <ul class="custom-list">
-            <li><span class="date-text"><strong>[2025.10]</strong></span> 🔥 We release EVA, </li>
-            <li><span class="date-text"><strong>[2025.10]</strong></span> 🔥 We release C2-Evo, </li>
-            <li><span class="date-text"><strong>[2025.09]</strong></span> 🔥 We release TransMamba, an.</li>
+            <li><span class="date-text"><strong>[2025.10]</strong></span> 🔥 We release EVA, a framework that internalizes explicit tool calling into the model's intrinsic capabilities.</li>
+            <li><span class="date-text"><strong>[2025.10]</strong></span> 🔥 We release C2-Evo, a method for co-evolving models and data, an agent for drawing auxiliary line.</li>
+            <li><span class="date-text"><strong>[2025.09]</strong></span> 🔥 We release TransMamba, a simple method to quickly adapt Transformer models to the Mamba framework.</li>
             <li><span class="date-text"><strong>[2023.10]</strong></span> 🎉 One paper is accepted by PRCV 2023.</li>
             <li><span class="date-text"><strong>[2023.07]</strong></span> 🎉 One paper (DRC) is accepted by ICCV 2023.</li>
             <li><span class="date-text"><strong>[2021.01]</strong></span> Welcome to my new homepage!</li>
