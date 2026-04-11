@@ -344,15 +344,13 @@ permalink: /
                     </div>    
                 </div>   
             </li>
-
-            
             
         </ul>
 
 
-        <div class="section-title">🔥 Educations</div> <ul class="custom-list">
+        <div class="section-title">🎓 Educations</div> <ul class="custom-list">
             <li><span class="date-text">2024.09 - now,</span>  PhD Student, Sun Yat-sen University (SYSU) </li>
-            <li><span class="date-text">2021.09 - 2024.06,</span>  Master of Student, Sun Yat-sen University (SYSU) </li>
+            <li><span class="date-text">2021.09 - 2024.06,</span>  Master of CS, Sun Yat-sen University (SYSU) </li>
             <li><span class="date-text">2017.09 - 2021.06,</span>  Bachelor of CS, The Taiyuan University of Technology (TYUT) </li>
         </ul>
 
