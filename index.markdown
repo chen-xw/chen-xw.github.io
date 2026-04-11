@@ -4,11 +4,6 @@ title: 主页
 ---
 
 
----
-layout: default2
-title: 主页
----
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
