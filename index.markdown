@@ -175,14 +175,7 @@ permalink: /
             <li><span class="date-text"><strong>[2021.01]</strong></span> Welcome to my new homepage!</li>
         </ul>
 
-        <div class="section-title">🛠️ Projects</div> <ul class="custom-list">
-            <li>
-                <a href="#" style="font-weight: bold;">UlmEvalkit: An open-source toolkit for evaluating unified large multi-modal models and generative models</a><br>
-                <strong>Xiuwei Chen</strong>, Renrui Zhang, Yankai Shu, Yuyang Peng, Zhuofan Zong, Yuchen Duan, Zihao Wang, Jiaming Liu, Hao Chen, Ziyu Guo, Junyan Ye, Rui Liu, Pheng Ann Heng, Shanghang Zhang, Hongsheng Li.
-            </li>
-        </ul>
-
-        <div class="section-title">📝 Publications</div> <div class="pub-category">o1/R1-like CoT Reasoning for Generation</div>
+        <div class="section-title">📝 Publications and Preprints</div> <div class="pub-category">o1/R1-like CoT Reasoning for Generation</div>
         <ul class="pub-list">
             <li>
                 <div class="pub-title-row">
