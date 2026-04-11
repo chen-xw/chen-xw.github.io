@@ -125,8 +125,8 @@ permalink: /
         /* 1. 修改图片容器，增加 relative 定位 */
     .pub-image {
         flex-shrink: 0;
-        width: 280px;
-        height: 160px; /* 新增：固定高度，防止图片太矮 */
+        width: 200px;
+        height: 120px; /* 新增：固定高度，防止图片太矮 */
         border-radius: 8px;
         overflow: hidden;
         box-shadow: 0 2px 8px rgba(0,0,0,0.1);
