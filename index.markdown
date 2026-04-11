@@ -383,9 +383,9 @@ permalink: /
         </ul>
 
         <div class="section-title">💼  Experiences</div> <ul class="custom-list">
-            <li><span class="date-text">2025.08 - now,</span>  Research Intern, YinWang 2030 Lab</li>
-            <li><span class="date-text">2024.07 - 2025.07,</span>  Research Intern, Huawei Noah's Ark Lab </li>
-            <li><span class="date-text">2023.06 - 2023.08,</span>  Algorithm Intern, Hikvision Research Institute </li>
+            <li><span class="date-text">2025.08 - now,</span>  Research Intern, YinWang 2030 Lab, Supervisor: Hang Xu, Jianhua Han</li>
+            <li><span class="date-text">2024.07 - 2025.07,</span>  Research Intern, Huawei Noah's Ark Lab, Supervisor: Hang Xu, Jianhua Han, Yihan Zeng </li>
+            <li><span class="date-text">2023.06 - 2023.08,</span>  Algorithm Intern, Hikvision Research Institute, Supervisor: Jun Che </li>
         </ul>
 
 
