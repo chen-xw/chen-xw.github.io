@@ -190,7 +190,7 @@ permalink: /
 
     <div class="academic-sidebar">
         <div class="hp-photo-container">
-            <img class="hp-photo" src="./imgs/photo.jpg" alt="Xiuwei Chen">
+            <img class="hp-photo" src="./image/photo.jpg" alt="Xiuwei Chen">
         </div>
         <div class="author-name">Xiuwei Chen</div>
         <div class="author-title">
