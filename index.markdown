@@ -255,7 +255,7 @@ permalink: /
                 <div class="pub-item">
                     <div class="pub-image">
                         <!-- 在这里添加标签，文字可以改成 arXiv 2025 等 -->
-                        <span class="pub-img-badge">arXiv 2025</span> 
+                        <span class="pub-img-badge">ICLR 2026</span> 
                         <img src="./image/SemHiTok.png" alt="MME-CoF Benchmark">
                     </div>
                     <div class="pub-content">
