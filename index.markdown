@@ -13,7 +13,7 @@ permalink: /
         line-height: 1.6;
         display: flex;
         flex-wrap: wrap;
-        max-width: 1400px;
+        max-width: 1800px;
         margin: 0 auto;
         padding: 40px 10px;
         align-items: flex-start; 
