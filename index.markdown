@@ -339,7 +339,7 @@ permalink: /
             <li>
                 <div class="pub-item">
                     <div class="pub-image">
-                        <span class="pub-img-badge">arXiv 2025</span>
+                        <span class="pub-img-badge">ECCV 2026</span>
                         <img src="./image/c2evo.png" alt="MME-CoF Benchmark">
                     </div>
                     <div class="pub-content">
