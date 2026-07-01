@@ -275,6 +275,7 @@ permalink: /
         </p>
 
         <div class="section-title">🔥 News</div> <ul class="custom-list news-list">
+            <li><span class="date-text"><strong>[2026.02]</strong></span> 🎉 One paper (<a href="https://arxiv.org/html/2507.16518v3">SyncLoop</a>) is accepted by ECCV 2026.</li>
             <li><span class="date-text"><strong>[2026.02]</strong></span> 🎉 One paper (<a href="https://arxiv.org/abs/2503.06764">SemHiTok</a>) is accepted by ICLR 2026.</li>
             <li><span class="date-text"><strong>[2025.12]</strong></span> 🔥 We release <a href="https://arxiv.org/abs/2502.15130">EVA</a>, a framework that internalizes explicit tool calling into the model's intrinsic capabilities.</li>
             <li><span class="date-text"><strong>[2025.07]</strong></span> 🔥 We release <a href="https://c2-evo.github.io">C2-Evo</a>, a method for co-evolving models and data, an agent for drawing auxiliary line.</li>
@@ -319,14 +320,14 @@ permalink: /
                     </div>
                     <div class="pub-content">
                         <div class="pub-title-row">
-                            <span class="badge tag-arxiv">Arxiv</span> <a href="https://arxiv.org/abs/2502.15130">Latent Visual States for Efficient Multimodal Reasoning</a> 
+                            <span class="badge tag-arxiv">Arxiv</span> <a href="https://arxiv.org/abs/2606.24233">Latent Visual States for Efficient Multimodal Reasoning</a> 
                         </div>
                         <div class="pub-authors">
                             Xiuwei Chen, Wentao Hu, Xiao Dong, Sihao Lin, Zisheng Chen, Meng Cao, Yina Zhuang, Jianhua Han, Hang Xu, Xiaodan Liang
                         </div>
                         <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> 
                         <div class="pub-links"> 
-                            <a href="https://arxiv.org/abs/2502.15130" class="pub-btn">PDF</a>
+                            <a href="https://arxiv.org/abs/2606.24233" class="pub-btn">PDF</a>
                             <a href="https://github.com/chen-xw/TransMamba-main" class="pub-btn">Code</a>
                             <a href="https://github.com/chen-xw/TransMamba-main" class="pub-btn">Project Page</a>
                         </div>  
