@@ -345,7 +345,7 @@ permalink: /
                     <div class="pub-content">
                         <!-- ... 内容保持不变 ... -->
                          <div class="pub-title-row">
-                            <span class="badge tag-arxiv">Arxiv</span> <a href="https://c2-evo.github.io/">C2-Evo: Co-Evolving Multimodal Data and Model for Self-Improving Reasoning</a> 
+                            <span class="badge tag-conf">ECCV 2026</span> <a href="https://c2-evo.github.io/">C2-Evo: Co-Evolving Multimodal Data and Model for Self-Improving Reasoning</a> 
                         </div>
                         <div class="pub-authors">
                             Xiuwei Chen, Wentao Hu, Hanhui Li, Jun Zhou, Zisheng Chen, Meng Cao, Yihan Zeng, Kui Zhang, Yu-Jie Yuan, Jianhua Han, Hang Xu, Xiaodan Liang
