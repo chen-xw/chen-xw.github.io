@@ -275,7 +275,7 @@ permalink: /
         </p>
 
         <div class="section-title">🔥 News</div> <ul class="custom-list news-list">
-            <li><span class="date-text"><strong>[2026.02]</strong></span> 🎉 One paper (<a href="https://arxiv.org/html/2507.16518v3">SyncLoop</a>) is accepted by ECCV 2026.</li>
+            <li><span class="date-text"><strong>[2026.06]</strong></span> 🎉 One paper (<a href="https://arxiv.org/html/2507.16518v3">SyncLoop</a>) is accepted by ECCV 2026.</li>
             <li><span class="date-text"><strong>[2026.02]</strong></span> 🎉 One paper (<a href="https://arxiv.org/abs/2503.06764">SemHiTok</a>) is accepted by ICLR 2026.</li>
             <li><span class="date-text"><strong>[2025.12]</strong></span> 🔥 We release <a href="https://arxiv.org/abs/2502.15130">EVA</a>, a framework that internalizes explicit tool calling into the model's intrinsic capabilities.</li>
             <li><span class="date-text"><strong>[2025.07]</strong></span> 🔥 We release <a href="https://c2-evo.github.io">C2-Evo</a>, a method for co-evolving models and data, an agent for drawing auxiliary line.</li>
