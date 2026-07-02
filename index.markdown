@@ -350,7 +350,7 @@ permalink: /
                         <div class="pub-authors">
                             Xiuwei Chen, Wentao Hu, Hanhui Li, Jun Zhou, Zisheng Chen, Meng Cao, Yihan Zeng, Kui Zhang, Yu-Jie Yuan, Jianhua Han, Hang Xu, Xiaodan Liang
                         </div>
-                        <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> 
+                        <div style="font-style: italic; color: #666; font-size: 14px;">ECCV 2026</div> 
                         <div class="pub-links"> 
                             <a href="https://arxiv.org/abs/2507.16518" class="pub-btn">PDF</a>
                             <a href="https://github.com/chen-xw/C2-Evo" class="pub-btn">Code</a>
