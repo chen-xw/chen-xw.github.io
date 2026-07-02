@@ -323,7 +323,7 @@ permalink: /
                             <span class="badge tag-arxiv">Arxiv</span> <a href="https://arxiv.org/abs/2606.24233">Latent Visual States for Efficient Multimodal Reasoning</a> 
                         </div>
                         <div class="pub-authors">
-                            Xiuwei Chen, Wentao Hu, Xiao Dong, Sihao Lin, Zisheng Chen, Meng Cao, Yina Zhuang, Jianhua Han, Hang Xu, Xiaodan Liang
+                            Xiuwei Chen, Wentao Hu, Yongxin Wang, Zisheng Chen, Likui Zhang, Kun Xiang, Jianhua Han, Hui-Ling Zhen, Jingyuan Zou, Hang Xu, Xiaodan Liang
                         </div>
                         <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> 
                         <div class="pub-links"> 
