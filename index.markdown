@@ -79,7 +79,7 @@ permalink: /
     ul.custom-list { list-style-type: none; padding-left: 0; margin-top: 0; }
     ul.custom-list li { margin-bottom: 12px; position: relative; padding-left: 18px; font-size: 14.5px; }
     ul.custom-list li::before { content: "•"; position: absolute; left: 0; color: #666; font-size: 18px; line-height: 1.4; }
-    .date-text { font-style: italic; color: #555; margin-right: 5px; }
+    .date-text { font-style: normal;  font-family: "KaiTi", "STKaiti", "楷体", serif; color: #555; margin-right: 5px; }
 
     /* =========================================
        任务 3: Publications 列表修改成第三个图这种形式 (仿截图标签和按钮)
@@ -275,7 +275,9 @@ permalink: /
         </p>
 
         <div class="section-title">🔥 News</div> <ul class="custom-list news-list">
-            <li><span class="date-text"><strong>[2026.06]</strong></span> 🎉 One paper (<a href="https://arxiv.org/html/2507.16518v3">SyncLoop</a>) is accepted by ECCV 2026.</li>
+            <li><span class="date-text"><strong>[2025.02]</strong></span> 🔥 We release <a href="https://arxiv.org/abs/2607.11106">BEE</a>, the detailed discrete version of EVA.</li>
+            <li><span class="date-text"><strong>[2026.06]</strong></span> 🎉 One paper (<a href="https://arxiv.org/html/2507.16518v3">SyncLoop</a>) (formerly C2-Evo) is accepted by ECCV 2026.</li>
+            <li><span class="date-text"><strong>[2026.02]</strong></span> 🎉 One paper (<a href="https://arxiv.org/abs/2603.07648">Atomicvla</a>) is accepted by CVPR 2026.</li>
             <li><span class="date-text"><strong>[2026.02]</strong></span> 🎉 One paper (<a href="https://arxiv.org/abs/2503.06764">SemHiTok</a>) is accepted by ICLR 2026.</li>
             <li><span class="date-text"><strong>[2025.12]</strong></span> 🔥 We release <a href="https://arxiv.org/abs/2502.15130">EVA</a>, a framework that internalizes explicit tool calling into the model's intrinsic capabilities.</li>
             <li><span class="date-text"><strong>[2025.07]</strong></span> 🔥 We release <a href="https://c2-evo.github.io">C2-Evo</a>, a method for co-evolving models and data, an agent for drawing auxiliary line.</li>
@@ -287,6 +289,54 @@ permalink: /
 
         <div class="section-title">📝 Publications and Preprints</div>
         <ul class="pub-list">
+
+            <li>
+                <div class="pub-item">
+                    <div class="pub-image">
+                        <!-- 在这里添加标签，文字可以改成 arXiv 2025 等 -->
+                        <span class="pub-img-badge">arXiv 2026</span> 
+                        <img src="./image/bee.png" alt="MME-CoF Benchmark">
+                    </div>
+                    <div class="pub-content">
+                        <div class="pub-title-row">
+                            <span class="badge tag-arxiv">Arxiv</span> <a href="https://arxiv.org/abs/2607.11106">Beyond the Eye: Efficient Multimodal Reasoning via Self-Regulated Implicit Visual Tools</a> 
+                        </div>
+                        <div class="pub-authors">
+                            Xiuwei Chen, Quanlin Chen, Wentao Hu, Zisheng Chen, Kun Xiang, Zehua Ma, Mingyang Zhang, Jianhua Han, Hanhui Li, Hang Xu, Xiaodan Liang
+                        </div>
+                        <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2026</div> 
+                        <div class="pub-links"> 
+                            <a href="https://arxiv.org/abs/2607.11106" class="pub-btn">PDF</a>
+                            <a href="https://github.com/chen-xw/BEE-Official-Code" class="pub-btn">Code</a>
+                            <a href="https://self-improvement-tool.github.io/bee.github.io/" class="pub-btn">Project Page</a>
+                        </div>  
+                    </div>    
+                </div>   
+            </li>
+
+            <li>
+                <div class="pub-item">
+                    <div class="pub-image">
+                        <!-- 在这里添加标签，文字可以改成 arXiv 2025 等 -->
+                        <span class="pub-img-badge">CVPR 2026</span> 
+                        <img src="./image/AtomicVLA.png" alt="MME-CoF Benchmark">
+                    </div>
+                    <div class="pub-content">
+                        <div class="pub-title-row">
+                            <span class="badge tag-conf">CVPR 2026</span> <a href="https://arxiv.org/abs/2603.07648">AtomicVLA: Unlocking the Potential of Atomic Skill Learning in Robots</a> 
+                        </div>
+                        <div class="pub-authors">
+                            Likui Zhang, Tao Tang, Zhihao Zhan, Xiuwei Chen, Zisheng Chen, Jianhua Han, Jiangtong Zhu, Pei Xu, Hang Xu, Hefeng Wu, Liang Lin, Xiaodan Liang
+                        </div>
+                        <div style="font-style: italic; color: #666; font-size: 14px;">ICLR 2026</div> 
+                        <div class="pub-links"> 
+                            <a href="https://arxiv.org/abs/2603.07648" class="pub-btn">PDF</a>
+                            <a href="https://github.com/zhanglk9/AtomicVLA" class="pub-btn">Code</a>
+                            <a href="https://zhanglk9.github.io/atomicvla-web/" class="pub-btn">Project Page</a>
+                        </div>  
+                    </div>    
+                </div>   
+            </li>
 
             <li>
                 <div class="pub-item">
@@ -328,8 +378,6 @@ permalink: /
                         <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> 
                         <div class="pub-links"> 
                             <a href="https://arxiv.org/abs/2606.24233" class="pub-btn">PDF</a>
-                            <a href="https://github.com/chen-xw/TransMamba-main" class="pub-btn">Code</a>
-                            <a href="https://github.com/chen-xw/TransMamba-main" class="pub-btn">Project Page</a>
                         </div>  
                     </div>    
                 </div>   
