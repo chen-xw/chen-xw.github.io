@@ -268,14 +268,14 @@ permalink: /
     <div class="academic-main">
         
         <div class="section-title">About Me</div> <p>
-             I am currently a Ph.D candidate in HCP Group at <a href="https://sai.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN">Prof. Xiaodan Liang</a>. I received my Master's degree at the <a href="https://www.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://xb-chang.github.io/">Prof. Xiaobin Chang</a>. Prior to SYSU, I obtained a B.Eng from <a href="https://www.tyut.edu.cn/">TYUT</a> and majored in Computer Science and Technology (CS) in 2021.
+             I am currently a Ph.D candidate in HCP Group at <a href="https://sai.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN">Prof. Xiaodan Liang</a>. I received my Master's degree at the <a href="https://www.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://xb-chang.github.io/">Prof. Xiaobin Chang</a>. Prior to SYSU, I obtained a B.Eng from <a href="https://www.tyut.edu.cn/">TYUT</a> in 2021.
         </p>
         <p>
             My research focuses on <strong>Multimodal Reasoning</strong>, particularly in <strong>Understanding</strong> and <strong>Self-Improvement</strong>.
         </p>
 
         <div class="section-title">🔥 News</div> <ul class="custom-list news-list">
-            <li><span class="date-text"><strong>[2025.02]</strong></span> 🔥 We release <a href="https://arxiv.org/abs/2607.11106">BEE</a>, the detailed discrete version of EVA.</li>
+            <li><span class="date-text"><strong>[2026.07]</strong></span> 🔥 We release <a href="https://arxiv.org/abs/2607.11106">BEE</a>, the detailed discrete version of EVA.</li>
             <li><span class="date-text"><strong>[2026.06]</strong></span> 🎉 One paper (<a href="https://arxiv.org/html/2507.16518v3">SyncLoop</a>) (formerly C2-Evo) is accepted by ECCV 2026.</li>
             <li><span class="date-text"><strong>[2026.02]</strong></span> 🎉 One paper (<a href="https://arxiv.org/abs/2603.07648">Atomicvla</a>) is accepted by CVPR 2026.</li>
             <li><span class="date-text"><strong>[2026.02]</strong></span> 🎉 One paper (<a href="https://arxiv.org/abs/2503.06764">SemHiTok</a>) is accepted by ICLR 2026.</li>
