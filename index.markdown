@@ -115,12 +115,55 @@ permalink: /
         margin-bottom: 35px;
         align-items: flex-start;
     }
-        /* News 部分专用样式 - 更紧凑的间距 */
-    .news-list li {
-        margin-bottom: 6px; /* 从 12px 减小到 6px */
-        line-height: 1.4;   /* 控制行高 */
+    /* News 部分专用样式 - 更紧凑的间距 */
+    .news-list {
+        max-height: 400px;  /* 或 height: 400px，根据需要调整 */
+        overflow-y: auto;   /* 启用垂直滚动条 */
+        padding-right: 10px; /* 给滚动条留出空间 */
+        list-style: none;    /* 去掉默认的列表样式 */
+        margin: 0;
+        padding-left: 0;
     }
     
+    /* 可选：美化滚动条样式（Webkit浏览器：Chrome, Safari, Edge） */
+    .news-list::-webkit-scrollbar {
+        width: 8px;
+    }
+    
+    .news-list::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 4px;
+    }
+    
+    .news-list::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+    }
+    
+    .news-list::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+    
+    /* 可选：Firefox 滚动条样式 */
+    .news-list {
+        scrollbar-width: thin;
+        scrollbar-color: #888 #f1f1f1;
+    }
+    
+    /* 确保每个列表项之间有间距 */
+    .news-list li {
+        margin-bottom: 12px;
+        line-height: 1.5;
+    }
+    
+    /* 日期文本样式 */
+    .date-text {
+        font-style: normal;
+        color: #555;
+        margin-right: 8px;
+        font-family: "Georgia", "Times New Roman", serif;
+    }
+
     /* 论文图片区域 */
         /* 1. 修改图片容器，增加 relative 定位 */
     .pub-image {
