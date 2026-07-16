@@ -272,7 +272,6 @@ permalink: /
             I am currently a Ph.D candidate in HCP Group at <a href="https://sai.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN">Prof. Xiaodan Liang</a>. I received my Master's degree at the <a href="https://www.sysu.edu.cn/">Sun Yat-sen University (SYSU)</a>, supervised by <a href="https://xb-chang.github.io/">Prof. Xiaobin Chang</a>. Prior to SYSU, I obtained a B.Eng from <a href="https://www.tyut.edu.cn/">TYUT</a> in 2021.
         </p>
         <p>
-            /* My research focuses on <strong>Multimodal Reasoning</strong>, particularly in <strong>Understanding</strong> and <strong>Self-Improvement</strong>. */
             I have some research collaborations about the topic below. Feel free to contact me.<br>
             &bull; Self-Improvement<br>
             &bull; VLM / Gen Agent (skill; RL)<br>
