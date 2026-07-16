@@ -302,7 +302,7 @@ permalink: /
                             <span class="badge tag-arxiv">Arxiv</span> <a href="https://arxiv.org/abs/2607.11106">Beyond the Eye: Efficient Multimodal Reasoning via Self-Regulated Implicit Visual Tools</a> 
                         </div>
                         <div class="pub-authors">
-                            Xiuwei Chen, Quanlin Chen, Wentao Hu, Zisheng Chen, Kun Xiang, Zehua Ma, Mingyang Zhang, Jianhua Han, Hanhui Li, Hang Xu, Xiaodan Liang
+                            <strong>Xiuwei Chen</strong>, Quanlin Chen, Wentao Hu, Zisheng Chen, Kun Xiang, Zehua Ma, Mingyang Zhang, Jianhua Han, Hanhui Li, Hang Xu, Xiaodan Liang
                         </div>
                         <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2026</div> 
                         <div class="pub-links"> 
@@ -326,7 +326,7 @@ permalink: /
                             <span class="badge tag-conf">CVPR 2026</span> <a href="https://arxiv.org/abs/2603.07648">AtomicVLA: Unlocking the Potential of Atomic Skill Learning in Robots</a> 
                         </div>
                         <div class="pub-authors">
-                            Likui Zhang, Tao Tang, Zhihao Zhan, Xiuwei Chen, Zisheng Chen, Jianhua Han, Jiangtong Zhu, Pei Xu, Hang Xu, Hefeng Wu, Liang Lin, Xiaodan Liang
+                            Likui Zhang, Tao Tang, Zhihao Zhan, <strong>Xiuwei Chen</strong>, Zisheng Chen, Jianhua Han, Jiangtong Zhu, Pei Xu, Hang Xu, Hefeng Wu, Liang Lin, Xiaodan Liang
                         </div>
                         <div style="font-style: italic; color: #666; font-size: 14px;">CVPR 2026</div> 
                         <div class="pub-links"> 
@@ -350,7 +350,7 @@ permalink: /
                             <span class="badge tag-conf">ICLR 2026</span> <a href="https://arxiv.org/abs/2503.06764">SemHiTok: A Unified Image Tokenizer via Semantic-Guided Hierarchical Codebook for Multimodal Understanding and Generation</a> 
                         </div>
                         <div class="pub-authors">
-                            Zisheng Chen, Chunwei Wang, Runhui Huang, Hongbin Xu, Xiuwei Chen, Jun Zhou, Jianhua Han, Hang Xu, Xiaodan Liang
+                            Zisheng Chen, Chunwei Wang, Runhui Huang, Hongbin Xu, <strong>Xiuwei Chen</strong>, Jun Zhou, Jianhua Han, Hang Xu, Xiaodan Liang
                         </div>
                         <div style="font-style: italic; color: #666; font-size: 14px;">ICLR 2026</div> 
                         <div class="pub-links"> 
@@ -373,7 +373,7 @@ permalink: /
                             <span class="badge tag-arxiv">Arxiv</span> <a href="https://arxiv.org/abs/2606.24233">Latent Visual States for Efficient Multimodal Reasoning</a> 
                         </div>
                         <div class="pub-authors">
-                            Xiuwei Chen, Wentao Hu, Yongxin Wang, Zisheng Chen, Likui Zhang, Kun Xiang, Jianhua Han, Hui-Ling Zhen, Jingyuan Zou, Hang Xu, Xiaodan Liang
+                            <strong>Xiuwei Chen</strong>, Wentao Hu, Yongxin Wang, Zisheng Chen, Likui Zhang, Kun Xiang, Jianhua Han, Hui-Ling Zhen, Jingyuan Zou, Hang Xu, Xiaodan Liang
                         </div>
                         <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> 
                         <div class="pub-links"> 
@@ -396,7 +396,7 @@ permalink: /
                             <span class="badge tag-conf">ECCV 2026</span> <a href="https://c2-evo.github.io/">C2-Evo: Co-Evolving Multimodal Data and Model for Self-Improving Reasoning</a> 
                         </div>
                         <div class="pub-authors">
-                            Xiuwei Chen, Wentao Hu, Hanhui Li, Jun Zhou, Zisheng Chen, Meng Cao, Yihan Zeng, Kui Zhang, Yu-Jie Yuan, Jianhua Han, Hang Xu, Xiaodan Liang
+                            <strong>Xiuwei Chen</strong>, Wentao Hu, Hanhui Li, Jun Zhou, Zisheng Chen, Meng Cao, Yihan Zeng, Kui Zhang, Yu-Jie Yuan, Jianhua Han, Hang Xu, Xiaodan Liang
                         </div>
                         <div style="font-style: italic; color: #666; font-size: 14px;">ECCV 2026</div> 
                         <div class="pub-links"> 
@@ -421,7 +421,7 @@ permalink: /
                             <span class="badge tag-arxiv">Arxiv</span> <a href="https://arxiv.org/abs/2502.15130">TransMamba: Fast Universal Architecture Adaption from Transformers to Mamba</a> 
                         </div>
                         <div class="pub-authors">
-                            Xiuwei Chen, Wentao Hu, Xiao Dong, Sihao Lin, Zisheng Chen, Meng Cao, Yina Zhuang, Jianhua Han, Hang Xu, Xiaodan Liang
+                            <strong>Xiuwei Chen</strong>, Wentao Hu, Xiao Dong, Sihao Lin, Zisheng Chen, Meng Cao, Yina Zhuang, Jianhua Han, Hang Xu, Xiaodan Liang
                         </div>
                         <div style="font-style: italic; color: #666; font-size: 14px;">arXiv 2025</div> 
                         <div class="pub-links"> 
@@ -446,7 +446,7 @@ permalink: /
                             <span class="badge tag-conf">ICCV 2023</span> <a href="https://arxiv.org/abs/2308.13305">Dynamic Residual Classifier for Class Incremental Learning</a> 
                         </div>
                         <div class="pub-authors">
-                            Xiuwei Chen, Xiaobin Chang 
+                            <strong>Xiuwei Chen</strong>, Xiaobin Chang 
                         </div>
                         <div style="font-style: italic; color: #666; font-size: 14px;">ICCV 2023</div> 
                         <div class="pub-links"> 
