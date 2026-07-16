@@ -328,7 +328,7 @@ permalink: /
                         <div class="pub-authors">
                             Likui Zhang, Tao Tang, Zhihao Zhan, Xiuwei Chen, Zisheng Chen, Jianhua Han, Jiangtong Zhu, Pei Xu, Hang Xu, Hefeng Wu, Liang Lin, Xiaodan Liang
                         </div>
-                        <div style="font-style: italic; color: #666; font-size: 14px;">ICLR 2026</div> 
+                        <div style="font-style: italic; color: #666; font-size: 14px;">CVPR 2026</div> 
                         <div class="pub-links"> 
                             <a href="https://arxiv.org/abs/2603.07648" class="pub-btn">PDF</a>
                             <a href="https://github.com/zhanglk9/AtomicVLA" class="pub-btn">Code</a>
