@@ -117,7 +117,7 @@ permalink: /
     }
     /* News 部分专用样式 - 更紧凑的间距 */
     .news-list {
-        max-height: 50px;  /* 或 height: 400px，根据需要调整 */
+        max-height: 200px;  /* 或 height: 400px，根据需要调整 */
         overflow-y: auto;   /* 启用垂直滚动条 */
         padding-right: 10px; /* 给滚动条留出空间 */
         list-style: none;    /* 去掉默认的列表样式 */
