@@ -317,6 +317,7 @@ permalink: /
         <p>
             I have some research collaborations about the topic below. Feel free to contact me.<br>
             &bull; Self-Improvement<br>
+            &bull; Continue/Lifelong/Increment Learning<br>
             &bull; VLM / Gen Agent (skill; RL)<br>
             &bull; Latent Reasoning<br>
         </p>
